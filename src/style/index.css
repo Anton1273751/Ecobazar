@@ -208,9 +208,19 @@ h1 {
   align-content: center;
   width: 100%;
   height: 93px;
-  margin-top: 23px;
 }
 
 .items {
   display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.items__text {
+  width: 143px;
+  height: 38px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
 }/*# sourceMappingURL=index.css.map */
