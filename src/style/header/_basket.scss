@@ -1,0 +1,28 @@
+.basket {
+  display: flex;
+  max-width: 191px;
+  height: 34px;
+
+  &__card {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  &__heart {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+  }
+  &__rectangle {
+    width: 25.5px;
+    height: 25.5px;
+  }
+
+  &__info {
+    display: flex;
+    
+    flex-direction: column;
+    gap: 7px;
+  }
+}
