@@ -1,4 +1,51 @@
 .navigation {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 56px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  &__link {
+    color: rgb(128, 128, 128);
+  }
+}
+.phone {
+  display: flex;
+  align-items: center;
+  width: 139px;
+  height: 28px;
+
+  gap: 8px;
+}
+#category {
+  width: 218px;
+  height: 56px;
+  order: 0;
+  flex-grow: 0;
+  text-align: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 16px 24px 16px 24px;
+  color: white;
+  background: rgb(0, 179, 7);
+}
+#home {
+  color: gray;
+  cursor: pointer;
+}
+#shop {
+  color: gray;
+  cursor: pointer;
+}
+#pages {
+  color: gray;
+  cursor: pointer;
+}
+#blog {
+  color: gray;
+  cursor: pointer;
 }
