@@ -133,7 +133,7 @@ button {
 }
 
 .container {
-  width: 1320px;
+  max-width: 1320px;
   margin: 0 auto;
   box-sizing: content-box;
   padding: 0 24px;
@@ -144,8 +144,6 @@ h1 {
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
   align-content: center;
   max-width: 100%;
   height: 42px;
@@ -155,7 +153,6 @@ h1 {
 .cap {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   height: 100%;
   align-items: center;
 }
@@ -164,7 +161,6 @@ h1 {
 }
 .cap__authorization {
   display: flex;
-  padding: 5px;
   gap: 20px;
 }
 
@@ -207,7 +203,6 @@ h1 {
 
 .сompany-logo {
   display: flex;
-  width: 100%;
   align-items: center;
   justify-content: space-between;
   height: 93px;
@@ -230,6 +225,9 @@ h1 {
   color: rgb(0, 38, 3);
 }
 
+.input {
+  display: flex;
+}
 .input__search {
   width: 400px;
   height: 45px;
@@ -250,10 +248,13 @@ h1 {
 
 .basket {
   display: flex;
-  max-width: 191px;
+  gap: 20px;
+  max-width: 291px;
   height: 34px;
 }
 .basket__card {
+  position: relative;
+  max-width: 127px;
   height: 34px;
   display: flex;
   align-items: center;
@@ -261,15 +262,48 @@ h1 {
 }
 .basket__heart {
   width: 32px;
-  height: 32px;
-  padding: 5px;
+  height: 100%;
+}
+.basket__line {
+  /* Devider */
+  width: 24px;
+  border: 1px solid rgb(204, 204, 204);
 }
 .basket__rectangle {
-  width: 25.5px;
-  height: 25.5px;
+  width: 32px;
+}
+.basket__counter {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 15px;
+  top: 3px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  color: white;
+  text-align: center;
+  background: rgb(44, 116, 47);
 }
 .basket__info {
   display: flex;
   flex-direction: column;
   gap: 7px;
+}
+.basket__text {
+  width: 81px;
+  height: 13px;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(77, 77, 77);
+}
+.basket__currency {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 100%;
+  color: rgb(26, 26, 26);
+}
+
+.navigation {
+  display: flex;
+  height: 56px;
 }/*# sourceMappingURL=index.css.map */

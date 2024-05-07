@@ -1,6 +1,5 @@
 .сompany-logo {
   display: flex;
-  width: 100%;
   align-items: center;
   justify-content: space-between;
   height: 93px;
@@ -24,6 +23,7 @@
   }
 }
 .input {
+  display: flex;
   &__search {
     width: 400px;
     height: 45px;

@@ -1,7 +1,7 @@
 .cap {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+
   height: 100%;
   align-items: center;
   &__location {
@@ -10,7 +10,7 @@
 
   &__authorization {
     display: flex;
-    padding: 5px;
+
     gap: 20px;
   }
 }
