@@ -36,3 +36,32 @@
     border: 1px solid rgb(218, 230, 218);
   }
 }
+.discount {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  left: 650px;
+  top: 220px;
+  border-radius: 50%;
+  background: rgb(255, 138, 0);
+
+  &__percent {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+  &__text {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+  }
+}
