@@ -1,0 +1,38 @@
+.slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 68px 0px 68px 0px;
+  &__img {
+    max-width: 795px;
+    height: 564px;
+    object-fit: cover;
+    object-position: center;
+    background: lightgrey;
+  }
+  &__left {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    left: -46px;
+    border-radius: 50%;
+    align-items: center;
+    border: 1px solid rgb(218, 230, 218);
+  }
+  &__right {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    right: -50px;
+    border-radius: 50%;
+    align-items: center;
+    border: 1px solid rgb(218, 230, 218);
+  }
+}
