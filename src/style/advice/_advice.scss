@@ -15,11 +15,19 @@
     width: 100%;
     height: 222px;
     padding: 40px;
-
     border: 1px solid rgb(218, 230, 218);
-
     cursor: pointer;
+    &:hover {
+      background: rgb(0, 179, 7);
+    }
+    &:hover .advice__title {
+      color: white;
+    }
+    &:hover .advice__text {
+      color: white;
+    }
   }
+
   &__img-wrap {
     display: flex;
     justify-content: center;
@@ -43,6 +51,7 @@
     letter-spacing: 0%;
     text-align: left;
   }
+
   &__text {
     color: rgb(153, 153, 153);
     font-size: 14px;

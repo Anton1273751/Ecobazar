@@ -534,6 +534,15 @@ h1 {
   border: 1px solid rgb(218, 230, 218);
   cursor: pointer;
 }
+.advice__article:hover {
+  background: rgb(0, 179, 7);
+}
+.advice__article:hover .advice__title {
+  color: white;
+}
+.advice__article:hover .advice__text {
+  color: white;
+}
 .advice__img-wrap {
   display: flex;
   justify-content: center;
