@@ -116,32 +116,16 @@
         <div class="slider__right"></div>
       </section>
 
-      <!-- <section class="container advice">
-        <article class="advice__card card">
-          <h3 class="card__title">Free Shiping</h3>
-          <p class="card__text"></p>
-        </article>
-        <article class="advice__card card">
-          <h3 class="card__title"></h3>
-          <p class="card__text"></p>
-        </article>
-        <article class="advice__card card">
-          <h3 class="card__title"></h3>
-          <p class="card__text"></p>
-        </article>
-        <article class="advice__card card">
-          <h3 class="card__title"></h3>
-          <p class="card__text"></p>
-        </article>
-      </section> -->
+      <section class="container advice">
+    <?php 
+        include "./src/php/advice.php"
+        ?>
+      </section>
 
       <section class="container product">
         <?php 
         include "./src/php/get_products.php"
         ?>
-
-      
-
       </section>
     </main>
     <footer></footer>
