@@ -122,8 +122,9 @@
         ?>
       </section>
 
-      <section class="container product">
-        <h3 class = "product__title">Introducing Our Products</h3>
+      <section class="product">
+        <div class ="container">
+          <h3 class = "product__title">Introducing Our Products</h3>
         <div class ="product__link link">
           <a  class ="link__ref" href="#">All</a>
           <a class ="link__ref" href="#">Vegetable</a>
@@ -136,6 +137,8 @@
         include "./src/php/get_products.php"
         ?>
        </div>
+        </div>
+        
       
       </section>
     </main>
