@@ -19,7 +19,9 @@
     while ($row = $result->fetch_assoc()) {
         echo <<<HTML
          <article class="product__article article">
-            <img src="{$row['image']}" alt="#">
+            <div class ="article__img-wrap">
+                <img class ="article__img" src="{$row['image']}" alt="#">
+            </div>          
             <div class="article__info">
                 <h3 class="article__title">{$row["name"]}</h3>
                 <p class="article__price">{$row["price"]}</p>

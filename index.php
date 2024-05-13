@@ -123,9 +123,20 @@
       </section>
 
       <section class="container product">
+        <h3 class = "product__title">Introducing Our Products</h3>
+        <div class ="product__link link">
+          <a  class ="link__ref" href="#">All</a>
+          <a class ="link__ref" href="#">Vegetable</a>
+          <a class ="link__ref"href="#">Fruit</a>
+          <a class ="link__ref" href="#">Meat & Fish</a>
+          <a  class ="link__ref"href="#">View All</a>
+        </div>
+        <div class ="product__wrapp">
         <?php 
         include "./src/php/get_products.php"
         ?>
+       </div>
+      
       </section>
     </main>
     <footer></footer>
