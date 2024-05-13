@@ -1,0 +1,15 @@
+.performance {
+  padding: 100px 0px 100px 0px;
+  display: flex;
+  justify-content: space-between;
+  &__article {
+    position: relative;
+
+    width: 424px;
+    height: 255px;
+  }
+  &__info {
+    position: absolute;
+    top: 60px;
+  }
+}
