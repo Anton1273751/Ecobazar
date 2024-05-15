@@ -142,36 +142,10 @@
       
       </section>
       <section class = "container performance">
-        <article class = "performance__article">
-          <img src="./src/images/performance/milk.jpeg" alt="#">
-          <div class ="performance__info">
-             <h3 class = "performance__title">100% Fresh 
-Cow Milk</h3>
-          <p class = "performance__text">Starting at $14.99</p>
-          <button class = "performance__btn">Shop Now</button>
-          </div>
-         
-        </article>
-             <article class = "performance__article">
-             <img src="./src/images/performance/drink.jpeg" alt="">
-             <div class ="performance__info">
-                <h3 class = "performance__title">Drink Sale</h3>
-          <p class = "performance__text">Water &
-Soft Drink</p>
-          <button class = "performance__btn">Shop Now</button>
-             </div>
-        
-        </article>
-             <article class = "performance__article">
-              <img src="./src/images/performance/breakfast.jpeg" alt="#">
-             <div class ="performance__info">
-               <h3 class = "performance__title">100% Organic</h3>
-          <p class = "performance__text">Quick Breakfast</p>
-          <button class = "performance__btn">Shop Now</button>
-               </div>
        
-        </article>
-        
+          <?php 
+        include "./src/php/perfomance.php"
+        ?>
       </section>
     </main>
     <footer></footer>
