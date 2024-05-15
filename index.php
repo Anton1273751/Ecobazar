@@ -137,8 +137,7 @@
         include "./src/php/get_products.php"
         ?>
        </div>
-        </div>
-        
+        </div>       
       
       </section>
       <section class = "container performance">
@@ -146,6 +145,38 @@
           <?php 
         include "./src/php/perfomance.php"
         ?>
+      </section>
+      <section class = "best-deals">
+        <div class ="container deal">
+          <img class ="deal__img-product" src="./src/images/deals/products.webp" alt="#">
+          <article class = "deal__card">
+            <h3 class ="deal__title" >Best Deals</h3>
+            <p class ="deal__text">Our Special Products Deal of the Month</p>
+            <div class ="deal__timer timer">
+              <div class ="timer__wrap">
+                <p class = "timer__num">00</p>
+                <p class ="timer__text">Days</p>
+              </div>
+               <div class ="timer__wrap">
+                <p class = "timer__num">02</p>
+                <p class ="timer__text">Hours</p>
+              </div>
+               <div class ="timer__wrap">
+                <p class = "timer__num">18</p>
+                <p class ="timer__text">Mins</p>
+              </div>
+               <div class ="timer__wrap">
+                <p class = "timer__num">46</p>
+                <p class ="timer__text">Secs</p>
+              </div>
+            </div>
+            <button class="deal__card-btn">Shop now <img class = "deal__arrow" src="./src/images/rigth_btn.png" alt="#"></button>
+          </article>
+          <img class ="deal__img-salerman" src="./src/images/deals/salesman.webp" alt="#">
+
+          
+        </div>
+
       </section>
     </main>
     <footer></footer>
