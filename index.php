@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style/index.css" />
+    <script defer src ="./src/js/index.js"></script>
     <title>Ecobazar</title>
   </head>
   <body>
@@ -117,9 +118,12 @@
       </section>
 
       <section class="container advice">
-    <?php 
+        <div class = "advice__wrapper">
+           <?php 
         include "./src/php/advice.php"
         ?>
+        </div>
+   
       </section>
 
       <section class="product">
@@ -154,25 +158,25 @@
             <p class ="deal__text">Our Special Products Deal of the Month</p>
             <div class ="deal__timer timer">
               <div class ="timer__wrap">
-                <p class = "timer__num">00</p>
+                <p class = "timer__days">00</p>
                 <p class ="timer__text">Days</p>
               </div>
                <div class ="timer__wrap">
-                <p class = "timer__num">02</p>
+                <p class = "timer__hours"></p>
                 <p class ="timer__text">Hours</p>
               </div>
                <div class ="timer__wrap">
-                <p class = "timer__num">18</p>
+                <p class = "timer__minuts"></p>
                 <p class ="timer__text">Mins</p>
               </div>
                <div class ="timer__wrap">
-                <p class = "timer__num">46</p>
+                <p class = "timer__second"></p>
                 <p class ="timer__text">Secs</p>
               </div>
             </div>
             <button class="deal__card-btn">Shop now <img class = "deal__arrow" src="./src/images/rigth_btn.png" alt="#"></button>
           </article>
-          <img class ="deal__img-salerman" src="./src/images/deals/salesman.webp" alt="#">
+          <img class ="deal__img-salerman" src="./src/images/deals/Image3.webp" alt="#">
 
           
         </div>

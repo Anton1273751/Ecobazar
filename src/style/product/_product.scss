@@ -1,6 +1,6 @@
 .product {
   background: rgb(237, 242, 238);
-  padding: 100px 0 100px 0;
+  padding: 211px 0 100px 0;
   &__wrapp {
     display: grid;
     grid-template-columns: repeat(4, 330px);
@@ -94,5 +94,9 @@
     &:hover {
       background: rgb(0, 179, 7);
     }
+  }
+  &__basket:hover .article__svg {
+    // запомнить!!!!
+    stroke: white;
   }
 }

@@ -3,13 +3,17 @@
   display: flex;
   justify-content: space-between;
   &__article {
-    position: relative;
+    display: flex;
 
+    background-image: url("/src/images/performance/breakfast.jpeg");
     width: 424px;
     height: 255px;
+    background-position: center;
+    padding: 5px;
+    background-size: cover;
   }
+
   &__info {
-    position: absolute;
     display: flex;
     flex-direction: column;
     top: 40px;

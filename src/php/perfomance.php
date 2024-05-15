@@ -18,8 +18,7 @@ $servername = "localhost";
 
   if ($result->num_rows > 0) {
         echo <<<HTML
-         <article class = "performance__article">
-          <img src="./src/images/performance/breakfast.jpeg" alt="#">
+         <article class = "performance__article"> 
           <div class ="performance__info">
              <h3 class = "performance__title">100% Fresh 
 Cow Milk</h3>
@@ -29,7 +28,7 @@ Cow Milk</h3>
          
         </article>
              <article class = "performance__article">
-             <img src="./src/images/performance/breakfast.jpeg" alt="">
+             
              <div class ="performance__info">
                 <h3 class = "performance__title">Drink Sale</h3>
           <p class = "performance__text">Water &
@@ -39,7 +38,7 @@ Soft Drink</p>
         
         </article>
              <article class = "performance__article">
-              <img src="./src/images/performance/breakfast.jpeg" alt="#">
+              
              <div class ="performance__info">
                <h3 class = "performance__title">100% Organic</h3>
           <p class = "performance__text">Quick Breakfast</p>
