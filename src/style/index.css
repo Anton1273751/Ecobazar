@@ -1019,6 +1019,36 @@ h1 {
   border-radius: 10px;
   background: white;
 }
+.clients__human {
+  margin-top: 28px;
+}
+.clients .human {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clients .human__img {
+  width: 64px;
+  height: 64px;
+}
+.clients .human__name {
+  color: rgb(0, 38, 3);
+  font-size: 16px;
+  margin-top: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.clients .human__customer {
+  color: rgb(97, 128, 98);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
 .clients__text {
   margin-top: 24px;
   color: rgb(64, 107, 66);
