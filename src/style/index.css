@@ -982,4 +982,48 @@ h1 {
 }
 .future-products__basket:hover .article__svg {
   stroke: white;
+}
+
+.clients {
+  background: rgb(237, 242, 238);
+  height: 1042px;
+}
+.clients__title {
+  color: rgb(0, 38, 3);
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 100px;
+  text-align: center;
+}
+.clients__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+}
+.clients__article {
+  display: flex;
+  flex-direction: column;
+  max-width: 424px;
+  height: 391px;
+  align-items: center;
+}
+.clients__review {
+  display: flex;
+  width: 424px;
+  height: 240px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(230, 230, 230);
+  padding: 32px;
+  border-radius: 10px;
+  background: white;
+}
+.clients__text {
+  margin-top: 24px;
+  color: rgb(64, 107, 66);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
