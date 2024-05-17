@@ -182,6 +182,14 @@
         </div>
 
       </section>
+      <section class ="container future-products">
+        <h3 class = 'future-products__headline'>Featured Products</h3>
+        <div class = "future-products__card-wrapp">
+            <?php 
+        include "./src/php/future-products.php"
+        ?>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
