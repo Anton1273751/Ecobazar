@@ -1,25 +1,30 @@
 .best-deals {
   /* Gren Gray Scale/50 */
   background: rgb(237, 242, 238);
+  width: 100%;
 }
 .deal {
+  position: relative;
   display: flex;
   justify-content: center;
-  justify-content: space-between;
   padding: 100px 0px 100px 0px;
 
   &__img-product {
+    position: absolute;
     max-width: 521px;
     height: 308px;
     object-fit: cover;
     object-position: center;
-    background: lightgrey;
+    right: 1000px;
   }
   &__img-salerman {
-    max-width: 721px;
+    position: absolute;
+    max-width: 704px;
     height: 495px;
     object-fit: cover;
     object-position: center;
+    left: 850px;
+    bottom: 40px;
   }
 
   &__card {
@@ -29,6 +34,7 @@
     align-items: center;
     padding: 30px;
   }
+
   &__title {
     color: rgb(0, 179, 7);
     font-size: 16px;
@@ -83,6 +89,12 @@
     padding: 20px 8px 20px 8px;
     background: white;
   }
+  &__days {
+    color: rgb(0, 179, 7);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+  }
   &__num {
     color: rgb(0, 179, 7);
     font-size: 32px;
@@ -96,9 +108,25 @@
     font-size: 14px;
     margin-top: 4px;
     font-weight: 500;
-    line-height: 100%;
-    letter-spacing: 3%;
     text-align: center;
     text-transform: uppercase;
+  }
+  &__hours {
+    color: rgb(0, 179, 7);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+  }
+  &__minuts {
+    color: rgb(0, 179, 7);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+  }
+  &__second {
+    color: rgb(0, 179, 7);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
   }
 }

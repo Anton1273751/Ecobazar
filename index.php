@@ -152,7 +152,7 @@
       </section>
       <section class = "best-deals">
         <div class ="container deal">
-          <img class ="deal__img-product" src="./src/images/deals/products.webp" alt="#">
+          <img class ="deal__img-product" src="./src/images/deals/vegetables.webp" alt="#">
           <article class = "deal__card">
             <h3 class ="deal__title" >Best Deals</h3>
             <p class ="deal__text">Our Special Products Deal of the Month</p>
