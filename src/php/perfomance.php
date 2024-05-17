@@ -37,11 +37,11 @@ Soft Drink</p>
              </div>
         
         </article>
-             <article class = "performance__article">
+             <article class = "performance__article breakfast">
               
-             <div class ="performance__info">
-               <h3 class = "performance__title">100% Organic</h3>
-          <p class = "performance__text">Quick Breakfast</p>
+             <div class ="breakfast__info">
+               <h3 class = "breakfast__title">100% Organic</h3>
+          <p class = "breakfast__text">Quick Breakfast</p>
           <button class = "performance__btn">Shop Now <img class ="performance__arrow" src="./src/images/performance/green_arrow.svg" alt="#"></button>
                </div>
        
