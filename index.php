@@ -217,6 +217,11 @@
         ?>
         </div>
       </section>
+
+      <section class ="mail" >
+        <div class ="line"></div>
+      </section>
+    
     </main>
     <footer></footer>
   </body>
