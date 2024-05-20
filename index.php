@@ -206,10 +206,16 @@
            <div class ="video__info">
             <h3 class ="video__title">Video</h3>
             <p class ="video__text">We’re the Best Organic Farm in the World</p>
-           </div>
-           
+           </div>          
         </div>
-       
+      </section>
+      <section class ="container news">
+        <h3 class="news__title">Latest News</h3>
+        <div class ="news__cards">
+            <?php 
+        include "./src/php/news.php"
+        ?>
+        </div>
       </section>
     </main>
     <footer></footer>
