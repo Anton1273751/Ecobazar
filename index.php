@@ -192,16 +192,24 @@
       </section>
       <section class ="clients">
         <div class ="container">
-          <h3 class ="clients__title">What our Clients Says</h3>
+        <h3 class ="clients__title">What our Clients Says</h3>
           <div class = "clients__cards ">
              <?php 
-        include "./src/php/clients.php"
+            include "./src/php/clients.php"
         ?>
-          
-          </div>
-
-          <div></div>
+           </div>
+       </div>
+      </section>
+      <section class = "container video">
+        <div class="video__wrapp">
+           <video controls  muted loop width ="1320"  class ="video__content" src="./src/video/ECOBAZAR.mp4" poster ="./src/images/video/organic.webp"></video>
+           <div class ="video__info">
+            <h3 class ="video__title">Video</h3>
+            <p class ="video__text">We’re the Best Organic Farm in the World</p>
+           </div>
+           
         </div>
+       
       </section>
     </main>
     <footer></footer>

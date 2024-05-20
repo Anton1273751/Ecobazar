@@ -1027,6 +1027,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .clients .human__img {
   width: 64px;
@@ -1055,5 +1056,49 @@ h1 {
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
+  text-align: center;
+}
+
+.video {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 4700px;
+  cursor: pointer;
+}
+.video__wrapp {
+  position: relative;
+}
+.video__info {
+  position: absolute;
+  display: flex;
+  width: 495px;
+  height: 114px;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  top: 180px;
+  left: 410px;
+}
+.video__title {
+  width: 56px;
+  height: 16px;
+  color: white;
+  font-family: Segoe Script;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+}
+.video__text {
+  width: 495px;
+  height: 86px;
+  margin-top: 12px;
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
   text-align: center;
 }/*# sourceMappingURL=index.css.map */

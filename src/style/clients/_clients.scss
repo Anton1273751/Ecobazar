@@ -32,7 +32,6 @@
     padding: 25px;
     border-radius: 10px;
     background: white;
-    
   }
   &__human {
     margin-top: 28px;
@@ -42,6 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     &__img {
       width: 64px;
       height: 64px;
