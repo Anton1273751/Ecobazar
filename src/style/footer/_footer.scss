@@ -1,0 +1,39 @@
+.footer {
+  height: 1018px;
+  padding: 100px;
+  background: rgb(0, 38, 3);
+  &__info {
+    display: flex;
+  }
+  &__shopery {
+    display: flex;
+    flex-direction: column;
+    max-width: 336px;
+  }
+  &__title {
+    width: 149px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+  &__text {
+    width: 336px;
+    height: 63px;
+    color: rgb(97, 128, 98);
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+.contacts {
+  display: flex;
+  justify-content: center;
+  width: 281px;
+  height: 33px;
+  gap: 16px;
+}

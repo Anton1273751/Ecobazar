@@ -242,7 +242,17 @@
     
     </main>
     <footer class="footer">
-      
+      <div class ="footer-info">
+      <article class ="footer__shopery">
+        <h3 class="footer__title">About Shopery</h3>
+        <p class ="footer__text">Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p>
+        <div class="footer__contacts contacts">
+          <p class ="contacts__phone">(219) 555-0114</p>
+          <p class="footer__text">or</p>
+          <p class ="contact__mail">Proxy@gmail.com</p>
+        </div>
+      </article>
+      </div>
     </footer>
   </body>
 </html>
