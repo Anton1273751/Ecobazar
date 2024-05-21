@@ -1104,7 +1104,10 @@ h1 {
 }
 
 .news {
-  margin-top: 500px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 510px;
 }
 .news__title {
   color: rgb(0, 38, 3);
@@ -1126,7 +1129,7 @@ h1 {
   height: 512px;
   padding: 24px;
   border-radius: 8px;
-  background: rgb(255, 254, 254);
+  background: white;
   cursor: pointer;
 }
 .news__img {
@@ -1176,7 +1179,99 @@ h1 {
   margin-left: 12px;
 }
 
-.mail {
+.newsletter {
   height: 518px;
+  margin-top: 900px;
   background: rgb(237, 242, 238);
+}
+.newsletter__line {
+  /* Gren Gray Scale/200 */
+  border-bottom: 1px solid rgb(180, 204, 180);
+  opacity: 0.7;
+  padding-top: 336px;
+}
+.newsletter__wrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.newsletter__logo-wrapp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.newsletter__img {
+  width: 39.04px;
+  height: 35.46px;
+}
+.newsletter__logo {
+  width: 174px;
+  height: 47px;
+  color: rgb(0, 38, 3);
+  font-size: 39.04px;
+  font-weight: 500;
+  line-height: 46.36px;
+  letter-spacing: -3%;
+  text-align: left;
+}
+.newsletter__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 448px;
+  height: 61px;
+  gap: 4px;
+}
+.newsletter__title {
+  width: 288px;
+  height: 36px;
+  color: rgb(0, 38, 3);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+.newsletter__text {
+  position: static;
+  width: 448px;
+  height: 21px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(122, 153, 124);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.newsletter__mail {
+  position: relative;
+  display: flex;
+  width: 435px;
+  height: 52px;
+  background: white;
+  border-radius: 46px;
+  border: 1px solid rgb(218, 230, 218);
+}
+.newsletter__input {
+  width: 491px;
+  height: 52px;
+  padding: 14px 24px 14px 24px;
+  border: 1px solid rgb(218, 230, 218);
+  border-radius: 46px 0px 0px 46px;
+  background: rgb(255, 255, 255);
+}
+.newsletter__btn {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 162px;
+  height: 52px;
+  left: 400px;
+  border-radius: 43px;
+  background: rgb(0, 179, 7);
+  color: white;
 }/*# sourceMappingURL=index.css.map */

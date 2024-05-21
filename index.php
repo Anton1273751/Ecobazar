@@ -218,11 +218,31 @@
         </div>
       </section>
 
-      <section class ="mail" >
-        
+      <section class ="newsletter" >
+        <div class="newsletter__line"></div>
+        <div class="container">
+          <div class="newsletter__wrapp">
+            <div class ="newsletter__logo-wrapp">
+              <img class ="newsletter__img" src="./src/images/list.svg" alt="#">
+              <h3 class="newsletter__logo">Ecobazar</h3>
+            </div>
+            <div class ="newsletter__info">
+              <h3 class ="newsletter__title">Subcribe our Newsletter</h3>
+              <p class ="newsletter__text">Pellentesque eu nibh eget mauris congue mattis matti.</p>
+            </div>
+
+           <div class="newsletter__mail">
+            <input class="newsletter__input" type="text" placeholder ="Your email address"> 
+            <button class="newsletter__btn">Subscribe</button>
+           </div>
+            
+          </div>
+        </div>
       </section>
     
     </main>
-    <footer></footer>
+    <footer class="footer">
+      
+    </footer>
   </body>
 </html>
