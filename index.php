@@ -65,15 +65,16 @@
       </section>
       <section class="container navigation">
         <nav class="nav">
+          <a href="./shop.php">Shop</a>
           <select name="" id="category">
             <option value="">All Category</option>
           </select>
 
           <select name="" id="home">
-            <option value="home">Home</option>
+            <option value="home">home</option>
           </select>
           <select name="" id="shop">
-            <option value="shop">Shop</option>
+            <option value="shop"></option>
           </select>
           <select name="" id="pages">
             <option value="pages">Pages</option>
