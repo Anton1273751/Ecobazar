@@ -11,11 +11,13 @@
    die("Connection failed".$conn->connection_error);
  }
 
- $sql = "SELECT * FROM clients";
+ $sql = "SELECT * FROM clients ORDER BY id DESC LIMIT 3";
 
  $result  = $conn->query($sql); //посмотреть как ваыглядит
 
- if ($result->num_rows > 0) {
+
+
+ if ($result->num_rows >0) {
     while ($row = $result->fetch_assoc()) {
         echo <<<HTML
         <article class = "clients__article">

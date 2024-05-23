@@ -11,7 +11,7 @@
    die("Connection failed".$conn->connection_error);
  }
 
- $sql = "SELECT * FROM news";
+ $sql = "SELECT * FROM news ORDER BY id DESC LIMIT 3";
 
  $result  = $conn->query($sql); //посмотреть как ваыглядит
 

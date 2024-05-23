@@ -1003,8 +1003,7 @@ h1 {
 .clients__article {
   display: flex;
   flex-direction: column;
-  max-width: 424px;
-  height: 391px;
+  max-width: 324px;
   align-items: center;
 }
 .clients__review {
