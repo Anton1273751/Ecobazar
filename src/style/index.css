@@ -1283,6 +1283,9 @@ h1 {
 }
 .footer__info {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 .footer__shopery {
   display: flex;
@@ -1301,6 +1304,7 @@ h1 {
   width: 336px;
   height: 63px;
   color: rgb(97, 128, 98);
+  margin-top: 16px;
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
@@ -1311,7 +1315,77 @@ h1 {
 .contacts {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 16px;
   width: 281px;
-  height: 33px;
   gap: 16px;
+}
+.contacts__phone {
+  display: flex;
+  color: white;
+  padding: 6px 0px 6px 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: left;
+}
+.contacts__text {
+  color: rgb(97, 128, 98);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.contacts__mail {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 78px;
+}
+.links__wrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.links__title {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.links__reference {
+  color: rgb(122, 153, 124);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+}
+.links__reference:hover {
+  color: white;
+}
+
+.instagram__title {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.instagram__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 69px);
+  margin-top: 20px;
+  gap: 12px;
 }/*# sourceMappingURL=index.css.map */

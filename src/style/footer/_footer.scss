@@ -4,6 +4,9 @@
   background: rgb(0, 38, 3);
   &__info {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
   }
   &__shopery {
     display: flex;
@@ -22,7 +25,7 @@
     width: 336px;
     height: 63px;
     color: rgb(97, 128, 98);
-
+    margin-top: 16px;
     font-size: 14px;
     font-weight: 400;
     line-height: 150%;
@@ -33,7 +36,79 @@
 .contacts {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 16px;
   width: 281px;
-  height: 33px;
   gap: 16px;
+  &__phone {
+    display: flex;
+
+    color: white;
+    padding: 6px 0px 6px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: left;
+  }
+  &__text {
+    color: rgb(97, 128, 98);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  &__mail {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 78px;
+
+  &__wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  &__title {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__reference {
+    color: rgb(122, 153, 124);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
+.instagram {
+  &__title {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 69px);
+    margin-top: 20px;
+    gap: 12px;
+  }
 }
