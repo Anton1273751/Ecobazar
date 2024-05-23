@@ -282,13 +282,13 @@
 
           <div class="instagram__grid">
           <img src="./src/images/instagram/bell_pepper.png" alt="#">
-          <img src="./src/images/instagram/bell_pepper.png" alt="#">
-          <img src="./src/images/instagram/bell_pepper.png" alt="#">
-          <img src="./src/images/instagram/bell_pepper.png" alt="#">
-          <img src="./src/images/instagram/bell_pepper.png" alt="#">
-          <img src="./src/images/instagram/bell_pepper.png" alt="#">
-          <img src="./src/images/instagram/bell_pepper.png" alt="#">
-          <img src="./src/images/instagram/bell_pepper.png" alt="#">
+          <img src="./src/images/instagram/dairy.png" alt="#">
+          <img src="./src/images/instagram/greenery.png" alt="#">
+          <img src="./src/images/instagram/products.png" alt="#">
+          <img src="./src/images/instagram/shelves.png" alt="#">
+          <img src="./src/images/instagram/snacks.png" alt="#">
+          <img src="./src/images/instagram/stand.png" alt="#">
+          <img src="src/images/instagram/vegetables.png" alt="#">
 
           </div>
          

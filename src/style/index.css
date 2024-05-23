@@ -1285,7 +1285,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  gap: 78px;
 }
 .footer__shopery {
   display: flex;
@@ -1328,6 +1328,7 @@ h1 {
   font-weight: 500;
   line-height: 150%;
   text-align: left;
+  cursor: pointer;
 }
 .contacts__text {
   color: rgb(97, 128, 98);
@@ -1342,6 +1343,7 @@ h1 {
   line-height: 150%;
   letter-spacing: 0%;
   text-align: left;
+  cursor: pointer;
 }
 
 .links {
@@ -1388,4 +1390,5 @@ h1 {
   grid-template-columns: repeat(4, 69px);
   margin-top: 20px;
   gap: 12px;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
