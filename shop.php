@@ -64,10 +64,6 @@
       </section>
       <section class="container navigation">
         <nav class="nav">
-          
-          <select name="" id="category">
-            <option value="">All Category</option>
-          </select>
 
           <select name="" id="home">
             <option value="home">Home</option>
@@ -77,10 +73,6 @@
             <option value="http://ecobazar/shop.php">Vegetables</option>
             <option value="https://www.youtube.com/watch?v=T1AMMeQhLEc">YouTube</option>
             <option value="http://ecobazar/">Home</option>
-
-
-
-            
           </select>
           <select name="" id="pages">
             <option value="pages">Pages</option>
@@ -95,6 +87,11 @@
           <img class="phone__img" src="./src/images/phone.svg" alt="#" />
           <p class="phone__num">(219) 555-0114</p>
         </div>
+      </section>
+
+      <section class= "breadcrumbs">
+        
+        
       </section>
      
 </body>

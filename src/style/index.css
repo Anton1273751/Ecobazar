@@ -1463,4 +1463,11 @@ h1 {
   -o-object-position: center;
      object-position: center;
   cursor: pointer;
+}
+
+.breadcrumbs {
+  max-width: 1920px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url("/src/images/shop/location/Breadcrumbs.png");
 }/*# sourceMappingURL=index.css.map */
