@@ -109,6 +109,14 @@
             </div>
         </div>
       </section>
+      <div class= "container">
+          <div class ="product__wrapp">
+        <?php 
+        include "./src/php/get_products.php"
+        ?>
+       </div>
+      </div>
+     
 </main>
 <!-- <footer class="footer">
       <div class ="container">
