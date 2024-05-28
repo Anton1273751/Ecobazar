@@ -1,0 +1,46 @@
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__social-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  &__facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(0, 179, 7);
+  }
+  &__facebook-img {
+    width: 9px;
+    height: 18px;
+  }
+  &__twitter {
+    width: 24px;
+    height: 24px;
+  }
+  &__pinterest {
+    width: 24px;
+    height: 24px;
+  }
+  &__instagram {
+    width: 44px;
+    height: 44px;
+  }
+  &__text {
+    width: 336px;
+    height: 21px;
+    color: rgb(97, 128, 98);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+  }
+}

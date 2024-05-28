@@ -1283,13 +1283,16 @@ h1 {
 .footer__info {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 78px;
 }
 .footer__shopery {
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  justify-content: start;
   max-width: 336px;
+  max-height: 136px;
+  height: 100%;
 }
 .footer__title {
   width: 149px;
@@ -1303,12 +1306,15 @@ h1 {
   width: 336px;
   height: 63px;
   color: rgb(97, 128, 98);
-  margin-top: 16px;
-  font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
   text-align: left;
+}
+.footer__line {
+  background-color: gray;
+  height: 1px;
+  margin-top: 100px;
 }
 
 .contacts {
@@ -1327,6 +1333,7 @@ h1 {
   line-height: 150%;
   text-align: left;
   cursor: pointer;
+  border-bottom: 1px solid chartreuse;
 }
 .contacts__text {
   color: rgb(97, 128, 98);
@@ -1340,8 +1347,10 @@ h1 {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0%;
+  padding: 6px 0px 6px 0px;
   text-align: left;
   cursor: pointer;
+  border-bottom: 1px solid chartreuse;
 }
 
 .links {
@@ -1389,4 +1398,50 @@ h1 {
   margin-top: 20px;
   gap: 12px;
   cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom__social-network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.bottom__facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(0, 179, 7);
+}
+.bottom__facebook-img {
+  width: 9px;
+  height: 18px;
+}
+.bottom__twitter {
+  width: 24px;
+  height: 24px;
+}
+.bottom__pinterest {
+  width: 24px;
+  height: 24px;
+}
+.bottom__instagram {
+  width: 44px;
+  height: 44px;
+}
+.bottom__text {
+  width: 336px;
+  height: 21px;
+  color: rgb(97, 128, 98);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
 }/*# sourceMappingURL=index.css.map */

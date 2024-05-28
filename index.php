@@ -243,7 +243,8 @@
     
     </main>
     <footer class="footer">
-      <div class ="footer__info">
+      <div class ="container">
+          <div class ="footer__info">
       <article class ="footer__shopery">
         <h3 class="footer__title">About Shopery</h3>
         <p class ="footer__text">Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p>
@@ -291,12 +292,36 @@
           <img src="./src/images/instagram/stand.png" alt="#">
           <img src="src/images/instagram/vegetables.png" alt="#">
 
-          </div>
+      </div>
          
        </div>
         </div>
         
          </div>
+         <div class="footer__line"></div>
+         <div class = "footer__bottom bottom">
+          <div class= bottom__social-network>
+            <div class = "bottom__facebook"><img class = "bottom__facebook-img" src="./src/images/footer/facebook.png" alt="#"></div>
+            <img class ="bottom__twitter" src="./src/images/footer/twitter.png" alt="#">
+            <img class ="bottom__pinterest" src="./src/images/footer/pinterest.png" alt="#">
+            <img class ="bottom__instagram" src="./src/images/footer/instagram.png" alt="#">
+          </div>
+          <p class="bottom__text">Shopery eCommerce © 2021. All Rights Reserved</p>
+          <div class ="bottom__pay">
+             <img class ="bottom__img" src="./src/images/footer/pay/Method=ApplePay.png" alt="#">
+             <img class ="bottom__img" src="./src/images/footer/pay/Method=Visa.png" alt="#">
+             <img class ="bottom__img" src="./src/images/footer/pay/Method=Mastercard.png" alt="#">
+             <img class ="bottom__img" src="src/images/footer/pay/Method=Discover.png" alt="#">
+             <img class ="bottom__img" src="./src/images/footer/pay/Cart.png" alt="#">
+
+
+
+
+          </div>
+         </div>
+      </div>
+    
+         
        
     </footer>
   </body>
