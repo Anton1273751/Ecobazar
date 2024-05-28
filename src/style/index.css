@@ -1313,7 +1313,6 @@ h1 {
 
 .contacts {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-top: 16px;
   width: 281px;
