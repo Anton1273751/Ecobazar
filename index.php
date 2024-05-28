@@ -65,16 +65,22 @@
       </section>
       <section class="container navigation">
         <nav class="nav">
-          <a href="./shop.php">Shop</a>
+          
           <select name="" id="category">
             <option value="">All Category</option>
           </select>
 
           <select name="" id="home">
-            <option value="home">home</option>
+            <option value="home">Home</option>
           </select>
-          <select name="" id="shop">
-            <option value="shop"></option>
+          <select name="Shop" id="shop" onchange="window.location.href = this.value;">
+            <option>Shop</option>
+            <option value="http://ecobazar/shop.php">Vegetables</option>
+            <option value="https://www.youtube.com/watch?v=T1AMMeQhLEc">YouTube</option>
+            <option value="http://ecobazar/">Home</option>
+
+
+            
           </select>
           <select name="" id="pages">
             <option value="pages">Pages</option>
