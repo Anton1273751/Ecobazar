@@ -89,10 +89,109 @@
         </div>
       </section>
 
-      <section class= "breadcrumbs">
-        
-        
+      <section class= "breadcrumbs"></section>
+      
+      <section class ="filter-products">
+        <div class ="container">
+            <div class ="filter">
+             <button class="filter__btn">Filter <img class ="filter__img" src="./src/images/shop/filter/Filter.png" alt="#"></button>
+             <div class= "filter__sort">
+                <p class ="filter__text">Sort by:</p>
+                <select class ="filter__select" name="">
+                    <option value="">Latest</option>
+                    <option value="">First</option>
+                </select>
+             </div>
+             <div class="filter__result">
+                    <p class="filter__count">52</p>
+                    <p class ="filter__text">Results Found</p>
+                </div>
+            </div>
+        </div>
       </section>
+</main>
+<!-- <footer class="footer">
+      <div class ="container">
+          <div class ="footer__info">
+      <article class ="footer__shopery">
+        <h3 class="footer__title">About Shopery</h3>
+        <p class ="footer__text">Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p>
+        <div class="footer__contacts contacts">
+          <p class ="contacts__phone">(219) 555-0114</p>
+          <p class="contacts__text">or</p>
+          <p class ="contacts__mail">Proxy@gmail.com</p>
+        </div>
+      </article>
+      <div class ="footer__links links">
+       <div class="links__wrapp">
+        <h3 class="links__title">My Account</h3>
+        <a class ="links__reference" href="#">My Account</a>
+        <a class ="links__reference" href="#">Order History</a>
+        <a class ="links__reference" href="#">Shoping Cart</a>
+        <a class ="links__reference" href="#">Wishlist</a>
+        <a class ="links__reference" href="#">Settings</a>
+       </div>
+       <div class="links__wrapp">
+        <h3 class="links__title">Helps</h3>
+        <a class ="links__reference" href="#">Contact</a>
+        <a class ="links__reference" href="#">Faqs</a>
+        <a class ="links__reference" href="#">Terms & Condition</a>
+        <a class ="links__reference" href="#">Privacy Policy</a>
+      
+       </div>
+         <div class="links__wrapp">
+        <h3 class="links__title">Proxyt</h3>
+        <a class ="links__reference" href="#">About</a>
+        <a class ="links__reference" href="#">Shop</a>
+        <a class ="links__reference" href="#">Product</a>
+        <a class ="links__reference" href="#">Products Details</a>
+        <a class ="links__reference" href="#">Track Order</a>
+       </div>
+       <div class ="links__instagram c">
+          <h3 class="instagram__title">Instagram</h3>
+
+          <div class="instagram__grid">
+          <img src="./src/images/instagram/bell_pepper.png" alt="#">
+          <img src="./src/images/instagram/dairy.png" alt="#">
+          <img src="./src/images/instagram/greenery.png" alt="#">
+          <img src="./src/images/instagram/products.png" alt="#">
+          <img src="./src/images/instagram/shelves.png" alt="#">
+          <img src="./src/images/instagram/snacks.png" alt="#">
+          <img src="./src/images/instagram/stand.png" alt="#">
+          <img src="src/images/instagram/vegetables.png" alt="#">
+
+      </div>
+         
+       </div>
+        </div>
+        
+         </div>
+         <div class="footer__line"></div>
+         <div class = "footer__bottom bottom">
+          <div class= bottom__social-network>
+            <div class = "bottom__facebook"><img class = "bottom__facebook-img" src="./src/images/footer/facebook.png" alt="#"></div>
+            <img class ="bottom__twitter" src="./src/images/footer/twitter.png" alt="#">
+            <img class ="bottom__pinterest" src="./src/images/footer/pinterest.png" alt="#">
+            <img class ="bottom__instagram" src="./src/images/footer/instagram.png" alt="#">
+          </div>
+          <p class="bottom__text">Shopery eCommerce © 2021. All Rights Reserved</p>
+          <div class ="bottom__pay">
+             <img class ="bottom__img" src="./src/images/footer/pay/Method=ApplePay.png" alt="#">
+             <img class ="bottom__img" src="./src/images/footer/pay/Method=Visa.png" alt="#">
+             <img class ="bottom__img" src="./src/images/footer/pay/Method=Mastercard.png" alt="#">
+             <img class ="bottom__img" src="src/images/footer/pay/Method=Discover.png" alt="#">
+             <img class ="bottom__img" src="./src/images/footer/pay/Cart.png" alt="#">
+
+
+
+
+          </div>
+         </div>
+      </div>
+    
+         
+       
+    </footer> -->
      
 </body>
 </html>

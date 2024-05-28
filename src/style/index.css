@@ -1470,4 +1470,63 @@ h1 {
   height: 120px;
   margin: 0 auto;
   background-image: url("/src/images/shop/location/Breadcrumbs.png");
+}
+
+.filter-products {
+  padding: 34px 0px 80px 0px;
+}
+
+.filter {
+  display: flex;
+}
+.filter__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 131px;
+  height: 45px;
+  border-radius: 43px;
+  color: white;
+  gap: 12px;
+  background: rgb(0, 179, 7);
+  font-weight: 600;
+  line-height: 120%;
+}
+.filter__img {
+  width: 20px;
+  height: 17px;
+}
+.filter__sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 205px;
+  gap: 8px;
+}
+.filter__text {
+  color: rgb(128, 128, 128);
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+.filter__select {
+  width: 166px;
+  height: 41px;
+  padding: 10px 16px 10px 16px;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 4px;
+  color: rgb(77, 77, 77);
+  font-weight: 400;
+  line-height: 150%;
+}
+.filter__result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 621px;
+  gap: 3px;
+}
+.filter__count {
+  font-size: 19px;
+  color: black;
 }/*# sourceMappingURL=index.css.map */
