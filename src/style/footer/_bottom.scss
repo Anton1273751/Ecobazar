@@ -2,12 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 28px;
 
   &__social-network {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
   }
   &__facebook {
     display: flex;
@@ -21,18 +23,22 @@
   &__facebook-img {
     width: 9px;
     height: 18px;
+    cursor: pointer;
   }
   &__twitter {
     width: 24px;
     height: 24px;
+    cursor: pointer;
   }
   &__pinterest {
     width: 24px;
     height: 24px;
+    cursor: pointer;
   }
   &__instagram {
     width: 44px;
     height: 44px;
+    cursor: pointer;
   }
   &__text {
     width: 336px;
@@ -42,5 +48,16 @@
     font-weight: 400;
     line-height: 150%;
     text-align: left;
+  }
+  &__pay {
+    display: flex;
+    gap: 8px;
+  }
+  &__img {
+    max-width: 65px;
+    height: 32px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
   }
 }

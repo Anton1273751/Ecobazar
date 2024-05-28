@@ -1276,7 +1276,7 @@ h1 {
 }
 
 .footer {
-  height: 1018px;
+  height: 518px;
   padding: 100px;
   background: rgb(0, 38, 3);
 }
@@ -1404,12 +1404,14 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 28px;
 }
 .bottom__social-network {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 .bottom__facebook {
   display: flex;
@@ -1423,18 +1425,22 @@ h1 {
 .bottom__facebook-img {
   width: 9px;
   height: 18px;
+  cursor: pointer;
 }
 .bottom__twitter {
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 .bottom__pinterest {
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 .bottom__instagram {
   width: 44px;
   height: 44px;
+  cursor: pointer;
 }
 .bottom__text {
   width: 336px;
@@ -1444,4 +1450,17 @@ h1 {
   font-weight: 400;
   line-height: 150%;
   text-align: left;
+}
+.bottom__pay {
+  display: flex;
+  gap: 8px;
+}
+.bottom__img {
+  max-width: 65px;
+  height: 32px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
