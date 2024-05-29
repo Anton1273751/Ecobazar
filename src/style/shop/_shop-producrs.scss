@@ -1,4 +1,9 @@
 .shop {
   padding: 24px 0px 80px 0px;
   display: flex;
+
+  &__products {
+    display: grid;
+    grid-template-columns: repeat(3, 312px);
+  }
 }

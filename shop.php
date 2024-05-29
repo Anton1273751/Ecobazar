@@ -113,8 +113,11 @@
         <div class="container">
           <div class ="shop__categories categories"></div>
           <div class ="shop__products">
+            <?php 
+              include "./src/php/shop-products.php"
+            ?>
              
-       </div>
+          </div>
           </div>
         </div>
       </section>
