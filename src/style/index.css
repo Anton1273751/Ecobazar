@@ -1617,4 +1617,7 @@ h1 {
   line-height: 150%;
   letter-spacing: 0%;
   text-align: left;
+}
+.price__range {
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
