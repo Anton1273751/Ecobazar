@@ -1,0 +1,48 @@
+.categories {
+  &__all {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 343px;
+  }
+  &__title {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(26, 26, 26);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+  }
+  &__input-wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__radio {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  &__text {
+    color: rgb(26, 26, 26);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__input {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    /* Branding/Success */
+
+    cursor: pointer;
+  }
+}

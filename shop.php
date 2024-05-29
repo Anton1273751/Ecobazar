@@ -111,21 +111,59 @@
       </section>
       <section class ="shop">
         <div class="container">
+          <div class ="shop__wrapp">
           <div class ="shop__categories categories">
-
+            <div class="categories__all">
+              <ul>
+                <li class ="categories__title">All Categories <img src="./src/images/shop/categories/arrow-top.png" alt="#"></li>
+                <div class ="categories__input-wrapp">
+                <div class="categories__radio">
+                <input class = "categories__input" type="radio" name ="example">
+                <li class="categories__text">Fresh Fruit (25)</li>
+                </div>
+                <div class="categories__radio">
+                <input class = "categories__input" type="radio" name ="example">
+                <li class="categories__text">Vegetables</li>
+                </div>
+                 <div class="categories__radio">
+                <input class = "categories__input" type="radio" name ="example">
+                <li class="categories__text">Cooking</li>
+                </div>
+                <div class="categories__radio">
+                <input class = "categories__input" type="radio" name ="example">
+                <li class="categories__text">Snacks</li>
+                </div>
+                 <div class="categories__radio">
+                <input class = "categories__input" type="radio" name ="example">
+                <li class="categories__text">Beverages</li>
+                </div>
+                <div class="categories__radio">
+                <input class = "categories__input" type="radio" name ="example">
+                <li class="categories__text">Beauty & Health</li>
+                </div>
+                <div class="categories__radio">
+                <input class = "categories__input" type="radio" name ="example">
+                <li class="categories__text">Bread & Bakery</li>
+                </div>
+                 </div>
+            
+              </ul>
+            </div>
           </div>
-          <div class ="shop__products">
+           <div class ="shop__products">
             <?php 
               include "./src/php/shop-products.php"
             ?>
-             
           </div>
+
+          </div>
+          
           <div class="shop__pagination pagination">
             <div class="pagination__wrapp">
               <button class ="pagination__btn">
               <img class="pagination__img" src="./src/images/shop/social/arrow-left.png" alt="">
               </button>
-              <button class ="pagination__btn">
+              <button>
               <img class ="pagination__img" src="./src/images/shop/social/arrow-right.png" alt="">
               </button>
 
