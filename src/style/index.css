@@ -1620,4 +1620,36 @@ h1 {
 }
 .price__range {
   cursor: pointer;
+}
+
+.rating {
+  max-width: 312px;
+}
+.rating__title {
+  color: rgb(26, 26, 26);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.rating__wrapp {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.rating__checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.rating__star-wrapp {
+  display: flex;
+  align-content: center;
+  gap: 2px;
+}
+.rating__star {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
