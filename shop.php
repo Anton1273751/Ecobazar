@@ -111,7 +111,9 @@
       </section>
       <section class ="shop">
         <div class="container">
-          <div class ="shop__categories categories"></div>
+          <div class ="shop__categories categories">
+
+          </div>
           <div class ="shop__products">
             <?php 
               include "./src/php/shop-products.php"
@@ -121,9 +123,30 @@
           </div>
         </div>
       </section>
-     
+      <section class ="newsletter-shop" >
+        <div class="container">
+          <div class="newsletter-shop__wrapp">
+            <div class ="newsletter-shop__info">
+              <h3 class ="newsletter-shop__title">Subcribe our Newsletter</h3>
+              <p class ="newsletter-shop__text">Pellentesque eu nibh eget mauris congue mattis matti.</p>
+            </div>
+
+           <div class="newsletter-shop__mail">
+            <input class="newsletter-shop__input" type="text" placeholder ="Your email address"> 
+            <button class="newsletter-shop__btn">Subscribe</button>
+           </div>
+             <div class= newsletter-shop__social-network>
+            <div class = "newsletter-shop__facebook"><img class = "bottom__facebook-img" src="./src/images/footer/facebook.png" alt="#"></div>
+            <img class ="newsletter-shop__twitter" src="./src/images/footer/twitter.png" alt="#">
+            <img class ="newsletter-shop__pinterest" src="./src/images/footer/pinterest.png" alt="#">
+            <img class ="newsletter-shop__instagram" src="./src/images/footer/instagram.png" alt="#">
+          </div>
+            
+          </div>
+        </div>
+      </section>
 </main>
-<!-- <footer class="footer">
+<footer class="footer">
       <div class ="container">
           <div class ="footer__info">
       <article class ="footer__shopery">
@@ -181,12 +204,7 @@
          </div>
          <div class="footer__line"></div>
          <div class = "footer__bottom bottom">
-          <div class= bottom__social-network>
-            <div class = "bottom__facebook"><img class = "bottom__facebook-img" src="./src/images/footer/facebook.png" alt="#"></div>
-            <img class ="bottom__twitter" src="./src/images/footer/twitter.png" alt="#">
-            <img class ="bottom__pinterest" src="./src/images/footer/pinterest.png" alt="#">
-            <img class ="bottom__instagram" src="./src/images/footer/instagram.png" alt="#">
-          </div>
+        
           <p class="bottom__text">Shopery eCommerce © 2021. All Rights Reserved</p>
           <div class ="bottom__pay">
              <img class ="bottom__img" src="./src/images/footer/pay/Method=ApplePay.png" alt="#">
@@ -204,7 +222,7 @@
     
          
        
-    </footer> -->
+    </footer>
      
 </body>
 </html>
