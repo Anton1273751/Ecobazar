@@ -1562,7 +1562,6 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 312px;
-  height: 343px;
 }
 .categories__title {
   display: flex;
@@ -1609,6 +1608,7 @@ h1 {
   width: 312px;
   height: 149px;
   gap: 16px;
+  margin-top: 40px;
 }
 .price__title {
   color: rgb(26, 26, 26);
