@@ -1,0 +1,15 @@
+.price {
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  height: 149px;
+  gap: 16px;
+  &__title {
+    color: rgb(26, 26, 26);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}

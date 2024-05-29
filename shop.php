@@ -149,6 +149,11 @@
             
               </ul>
             </div>
+            <div class="shop__price price">
+              <p class="price__title">Price</p>
+              <input class ="price__range" type="range" name="" id="">
+              <p class="price__text">Price: 50 — 1,500</p>
+            </div>
           </div>
            <div class ="shop__products">
             <?php 
