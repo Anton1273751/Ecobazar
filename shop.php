@@ -120,31 +120,21 @@
             ?>
              
           </div>
-          </div>
-        </div>
-      </section>
-      <section class ="newsletter-shop" >
-        <div class="container">
-          <div class="newsletter-shop__wrapp">
-            <div class ="newsletter-shop__info">
-              <h3 class ="newsletter-shop__title">Subcribe our Newsletter</h3>
-              <p class ="newsletter-shop__text">Pellentesque eu nibh eget mauris congue mattis matti.</p>
-            </div>
+          <div class="shop__pagination pagination">
+            <div class="pagination__wrapp">
+              <button class ="pagination__btn">
+              <img class="pagination__img" src="./src/images/shop/social/arrow-left.png" alt="">
+              </button>
+              <button class ="pagination__btn">
+              <img class ="pagination__img" src="./src/images/shop/social/arrow-right.png" alt="">
+              </button>
 
-           <div class="newsletter-shop__mail">
-            <input class="newsletter-shop__input" type="text" placeholder ="Your email address"> 
-            <button class="newsletter-shop__btn">Subscribe</button>
-           </div>
-             <div class= newsletter-shop__social-network>
-            <div class = "newsletter-shop__facebook"><img class = "bottom__facebook-img" src="./src/images/footer/facebook.png" alt="#"></div>
-            <img class ="newsletter-shop__twitter" src="./src/images/footer/twitter.png" alt="#">
-            <img class ="newsletter-shop__pinterest" src="./src/images/footer/pinterest.png" alt="#">
-            <img class ="newsletter-shop__instagram" src="./src/images/footer/instagram.png" alt="#">
+            </div>
           </div>
-            
           </div>
         </div>
       </section>
+
 </main>
 <footer class="footer">
       <div class ="container">

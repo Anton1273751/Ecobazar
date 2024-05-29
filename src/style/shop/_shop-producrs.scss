@@ -4,27 +4,30 @@
 
   &__products {
     display: grid;
+
     grid-template-columns: repeat(3, 312px);
   }
 }
-.newsletter-shop {
-  display: flex;
-  justify-content: center;
-  //   align-items: center;
-  height: 162px;
-
-  background: rgb(237, 242, 238);
-  &__line {
-    /* Gren Gray Scale/200 */
-    border-bottom: 1px solid rgb(180, 204, 180);
-    opacity: 0.7;
-    padding-top: 336px;
-  }
+.pagination {
   &__wrapp {
     display: flex;
-    justify-content: space-between;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 5px;
+  }
+  &__img {
+    cursor: pointer;
+  }
+}
+.news-shop {
+  width: 162px;
+  background: rgb(237, 242, 238);
+
+  &__wrapp {
+    display: flex;
+    width: 100%;
+
     margin-top: 50px;
   }
   &__logo-wrapp {
@@ -107,5 +110,22 @@
     border-radius: 43px;
     background: rgb(0, 179, 7);
     color: white;
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 184px;
+    height: 40px;
+    gap: 8px;
+  }
+  &__facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: rgb(0, 179, 7);
   }
 }

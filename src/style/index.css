@@ -1540,35 +1540,36 @@ h1 {
   grid-template-columns: repeat(3, 312px);
 }
 
-.newsletter-shop {
+.pagination__wrapp {
   display: flex;
+  align-items: center;
   justify-content: center;
-  height: 162px;
+  margin-top: 40px;
+  gap: 5px;
+}
+.pagination__img {
+  cursor: pointer;
+}
+
+.news-shop {
+  width: 162px;
   background: rgb(237, 242, 238);
 }
-.newsletter-shop__line {
-  /* Gren Gray Scale/200 */
-  border-bottom: 1px solid rgb(180, 204, 180);
-  opacity: 0.7;
-  padding-top: 336px;
-}
-.newsletter-shop__wrapp {
+.news-shop__wrapp {
   display: flex;
-  justify-content: space-between;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
   margin-top: 50px;
 }
-.newsletter-shop__logo-wrapp {
+.news-shop__logo-wrapp {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.newsletter-shop__img {
+.news-shop__img {
   width: 39.04px;
   height: 35.46px;
 }
-.newsletter-shop__logo {
+.news-shop__logo {
   width: 174px;
   height: 47px;
   color: rgb(0, 38, 3);
@@ -1578,14 +1579,14 @@ h1 {
   letter-spacing: -3%;
   text-align: left;
 }
-.newsletter-shop__info {
+.news-shop__info {
   display: flex;
   flex-direction: column;
   max-width: 448px;
   height: 61px;
   gap: 4px;
 }
-.newsletter-shop__title {
+.news-shop__title {
   width: 288px;
   height: 36px;
   color: rgb(0, 38, 3);
@@ -1594,7 +1595,7 @@ h1 {
   line-height: 150%;
   letter-spacing: 0%;
 }
-.newsletter-shop__text {
+.news-shop__text {
   position: static;
   width: 448px;
   height: 21px;
@@ -1608,7 +1609,7 @@ h1 {
   font-weight: 400;
   line-height: 150%;
 }
-.newsletter-shop__mail {
+.news-shop__mail {
   position: relative;
   display: flex;
   width: 435px;
@@ -1617,7 +1618,7 @@ h1 {
   border-radius: 46px;
   border: 1px solid rgb(218, 230, 218);
 }
-.newsletter-shop__input {
+.news-shop__input {
   width: 491px;
   height: 52px;
   padding: 14px 24px 14px 24px;
@@ -1625,7 +1626,7 @@ h1 {
   border-radius: 46px 0px 0px 46px;
   background: rgb(255, 255, 255);
 }
-.newsletter-shop__btn {
+.news-shop__btn {
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -1637,4 +1638,21 @@ h1 {
   border-radius: 43px;
   background: rgb(0, 179, 7);
   color: white;
+}
+.news-shop__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 184px;
+  height: 40px;
+  gap: 8px;
+}
+.news-shop__facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgb(0, 179, 7);
 }/*# sourceMappingURL=index.css.map */
