@@ -1529,4 +1529,9 @@ h1 {
 .filter__count {
   font-size: 19px;
   color: black;
+}
+
+.shop {
+  padding: 24px 0px 80px 0px;
+  display: flex;
 }/*# sourceMappingURL=index.css.map */

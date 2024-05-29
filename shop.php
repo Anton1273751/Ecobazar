@@ -109,13 +109,15 @@
             </div>
         </div>
       </section>
-      <div class= "container">
-          <div class ="product__wrapp">
-        <?php 
-        include "./src/php/get_products.php"
-        ?>
+      <section class ="shop">
+        <div class="container">
+          <div class ="shop__categories categories"></div>
+          <div class ="shop__products">
+             
        </div>
-      </div>
+          </div>
+        </div>
+      </section>
      
 </main>
 <!-- <footer class="footer">
