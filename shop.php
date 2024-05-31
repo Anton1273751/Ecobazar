@@ -160,52 +160,57 @@
               <div class = "rating__wrapp">
                 <input class="rating__checkbox" type="checkbox">
                  <div class="rating__star-wrapp">
-                    <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                    <img class = "rating__star" src="./src/images/star.svg" alt="#">
-                    <img class = "rating__star" src="./src/images/star.svg" alt="#">
-                    <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                    <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                </div>               
+                    <img  class = "rating__star"src="./src/images/shop/rating/active-star.png" alt="#">
+                    <img class = "rating__star" src="./src/images/shop/rating/active-star.png" alt="#">
+                    <img class = "rating__star" src="./src/images/shop/rating/active-star.png" alt="#">
+                    <img  class = "rating__star"src="./src/images/shop/rating/active-star.png" alt="#">
+                    <img  class = "rating__star"src="./src/images/shop/rating/active-star.png" alt="#">
+                </div>   
+                <p class ="rating__number">5.0</p>               
               </div>
               <div class = "rating__wrapp">
                 <input class="rating__checkbox" type="checkbox">
                  <div class="rating__star-wrapp">
+                    <img  class = "rating__star"src="./src/images/shop/rating/active-star.png" alt="#">
+                    <img class = "rating__star" src="./src/images/shop/rating/active-star.png" alt="#">
+                    <img class = "rating__star" src="./src/images/shop/rating/active-star.png" alt="#">
+                    <img  class = "rating__star"src="./src/images/shop/rating/active-star.png" alt="#">
                     <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                    <img class = "rating__star" src="./src/images/star.svg" alt="#">
-                    <img class = "rating__star" src="./src/images/star.svg" alt="#">
-                    <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                    <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                </div>               
+                </div>    
+                <p class ="rating__number">4.0 & up</p>              
               </div>
               <div class = "rating__wrapp">
                 <input class="rating__checkbox" type="checkbox">
                  <div class="rating__star-wrapp">
+                    <img  class = "rating__star"src="./src/images/shop/rating/active-star.png" alt="#">
+                    <img class = "rating__star" src="./src/images/shop/rating/active-star.png" alt="#">
+                    <img class = "rating__star" src="./src/images/shop/rating/active-star.png" alt="#">
                     <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                    <img class = "rating__star" src="./src/images/star.svg" alt="#">
-                    <img class = "rating__star" src="./src/images/star.svg" alt="#">
                     <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                    <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                </div>               
+                </div>
+                <p class ="rating__number">3.0 & up</p>                  
               </div>
               <div class = "rating__wrapp">
                 <input class="rating__checkbox" type="checkbox">
                  <div class="rating__star-wrapp">
-                    <img  class = "rating__star"src="./src/images/star.svg" alt="#">
+                    <img  class = "rating__star"src="./src/images/shop/rating/active-star.png" alt="#">
+                    <img class = "rating__star" src="./src/images/shop/rating/active-star.png" alt="#">
                     <img class = "rating__star" src="./src/images/star.svg" alt="#">
-                    <img class = "rating__star" src="./src/images/star.svg" alt="#">
                     <img  class = "rating__star"src="./src/images/star.svg" alt="#">
                     <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                </div>               
+                </div> 
+                <p class ="rating__number">2.0 & up</p>                 
               </div>
               <div class = "rating__wrapp">
                 <input class="rating__checkbox" type="checkbox">
                  <div class="rating__star-wrapp">
-                    <img  class = "rating__star"src="./src/images/star.svg" alt="#">
+                    <img  class = "rating__star"src="./src/images/shop/rating/active-star.png" alt="#">
                     <img class = "rating__star" src="./src/images/star.svg" alt="#">
                     <img class = "rating__star" src="./src/images/star.svg" alt="#">
                     <img  class = "rating__star"src="./src/images/star.svg" alt="#">
                     <img  class = "rating__star"src="./src/images/star.svg" alt="#">
-                </div>               
+                </div> 
+                <p class ="rating__number">1.0 & up</p>              
               </div>
             </div>
           </div>
