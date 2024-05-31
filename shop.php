@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link rel="stylesheet" href="./src/style/index.css" />
+       <link rel="stylesheet" href="./src/style/index.css" />       
+       <script defer src = "./src/js/shop.js"></script>
     <title>shop</title>
 </head>
 <body>
@@ -115,7 +116,7 @@
           <div class ="shop__categories categories">
             <div class="categories__all">
               <ul>
-                <li class ="categories__title">All Categories <img src="./src/images/shop/categories/arrow-top.png" alt="#"></li>
+                <button class ="categories__title">All Categories <img src="./src/images/shop/categories/arrow-top.png" alt="#"></button>
                 <div class ="categories__input-wrapp">
                 <div class="categories__radio">
                 <input class = "categories__input" type="radio" name ="example">

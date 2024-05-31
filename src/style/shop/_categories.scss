@@ -22,10 +22,12 @@
     flex-direction: column;
     gap: 10px;
   }
+
   &__radio {
     display: flex;
     gap: 8px;
     cursor: pointer;
+    color: #ff4500;
   }
 
   &__text {
@@ -44,4 +46,14 @@
 
     cursor: pointer;
   }
+}
+.hidden {
+  display: none;
+}
+.active {
+  display: block;
+}
+
+input[type="radio"] {
+  accent-color: green;
 }

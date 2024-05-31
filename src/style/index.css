@@ -1587,6 +1587,7 @@ h1 {
   display: flex;
   gap: 8px;
   cursor: pointer;
+  color: #ff4500;
 }
 .categories__text {
   color: rgb(26, 26, 26);
@@ -1602,6 +1603,18 @@ h1 {
   box-sizing: border-box;
   /* Branding/Success */
   cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+input[type=radio] {
+  accent-color: green;
 }
 
 .price {
