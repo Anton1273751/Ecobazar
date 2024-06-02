@@ -90,7 +90,9 @@
         </div>
       </section>
 
-      <section class= "breadcrumbs"></section>
+      <section class= "breadcrumbs">
+        <div></div>
+      </section>
       
       <section class ="filter-products">
         <div class ="container">
