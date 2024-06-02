@@ -1718,4 +1718,65 @@ input[type=checkbox] {
   height: 295px;
   margin-top: 20px;
   background-image: url("/src/images/shop/discount/Bannar.png");
+}
+
+.sale {
+  margin-top: 20px;
+}
+.sale__title {
+  color: rgb(26, 26, 26);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  font-weight: bold;
+}
+.sale__wrapp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  gap: 12px;
+}
+.sale__article {
+  display: flex;
+  border: 2px solid rgb(230, 230, 230);
+  align-items: center;
+  border-radius: 6px;
+  background: white;
+}
+.sale__img-wrap {
+  padding: 5px;
+}
+.sale__img {
+  max-width: 112px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px dashed lightgray;
+}
+.sale__info {
+  display: flex;
+  padding: 25px 12px 25px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 8px;
+}
+.sale__text {
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sale__price {
+  color: rgb(26, 26, 26);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
 }/*# sourceMappingURL=index.css.map */

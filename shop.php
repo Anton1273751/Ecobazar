@@ -235,6 +235,59 @@
               </div>
             </div>
             <div class ="popular__discount"></div>
+            <div class="popualar__sale sale">
+              <h3 class="sale__title">Sale Products</h3>
+              <div class="sale__wrapp">
+                <article class="sale__article">
+                   <div class="sale__img-wrap"> 
+                    <img class="sale__img" src="./src/images/shop/sale/red-bolgar.png" alt="#">
+                   </div>                 
+                  <div class="sale__info">
+                    <p class="sale__text">Red Capsicum</p>
+                    <p class="sale__price">$32.00</p>
+                    <div class="sale__star-wrapp">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/deactive-star.png" alt="#">
+                    </div>
+                  </div>
+                </article>
+                   <article class="sale__article">
+                    <div class="sale__img-wrap">
+                  <img class="sale__img" src="./src/images/shop/sale/mango.png" alt="#">                    
+                    </div>
+                  <div class="sale__info">
+                    <p class="sale__text">Chanise Cabbage</p>
+                    <p class="sale__price">$24.00</p>
+                    <div class="sale__star-wrapp">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/deactive-star.png" alt="#">
+                    </div>
+                  </div>
+                </article>
+                   <article class="sale__article">
+                    <div class="sale__img-wrap">
+                        <img class="sale__img" src="./src/images/shop/sale/green-bolgar.png" alt="#">
+                       </div>               
+                  <div class="sale__info">
+                    <p class="sale__text">Green Capsicum</p>
+                    <p class="sale__price">$32.00</p>
+                    <div class="sale__star-wrapp">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/active-star.png" alt="#">
+                      <img src="./src/images/shop/sale/deactive-star.png" alt="#">
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
            <div class ="shop__products">
             <?php 
