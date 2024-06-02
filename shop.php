@@ -234,6 +234,7 @@
                 <p class=" popular__text">Fruit</p>
               </div>
             </div>
+            <div class ="popular__discount"></div>
           </div>
            <div class ="shop__products">
             <?php 
