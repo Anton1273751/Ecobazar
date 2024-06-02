@@ -1,0 +1,33 @@
+.popular {
+  &__title {
+    color: rgb(26, 26, 26);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+  }
+  &__wrapp {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 8px;
+    height: 197px;
+  }
+  &__text {
+    display: flex;
+    height: 33px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px 6px 16px;
+    border-radius: 30px;
+    background: rgb(242, 242, 242);
+    cursor: pointer;
+  }
+  &__text:focus {
+    background: rgb(0, 179, 7);
+    color: white;
+    cursor: pointer;
+  }
+}

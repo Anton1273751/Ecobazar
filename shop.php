@@ -216,6 +216,24 @@
                 <p class ="rating__number">1.0 & up</p>              
               </div>
             </div>
+            <div class = "shop__popular popular ">
+              <h3 class="popular__title">Popular Tag</h3>
+              <div class="popular__wrapp">
+                <p class=" popular__text">Healthy</p>
+                <p class=" popular__text">Low fat</p>
+                <p class=" popular__text">Vegetarian</p>
+                <p class=" popular__text">Kid foods</p>
+                <p class=" popular__text">Vitamins</p>
+                <p class=" popular__text">Bread</p>
+                <p class=" popular__text">Meat</p>
+                <p class=" popular__text">Snacks</p>
+                <p class=" popular__text">Tiffin</p>
+                <p class=" popular__text">Launch</p>
+                <p class=" popular__text">Dinner</p>
+                <p class=" popular__text">Breackfast</p>
+                <p class=" popular__text">Fruit</p>
+              </div>
+            </div>
           </div>
            <div class ="shop__products">
             <?php 
