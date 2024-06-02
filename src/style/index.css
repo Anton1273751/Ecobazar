@@ -1626,6 +1626,7 @@ input[type=radio] {
   width: 312px;
   height: 149px;
   gap: 16px;
+  margin-top: 5px;
 }
 .price__title {
   color: rgb(26, 26, 26);
@@ -1637,6 +1638,10 @@ input[type=radio] {
 }
 .price__range {
   cursor: pointer;
+}
+
+input[type=range] {
+  accent-color: rgb(3, 164, 14);
 }
 
 .rating {
@@ -1669,4 +1674,8 @@ input[type=radio] {
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+
+input[type=checkbox] {
+  accent-color: rgb(3, 164, 14);
 }/*# sourceMappingURL=index.css.map */

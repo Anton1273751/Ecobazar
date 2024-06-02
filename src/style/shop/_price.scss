@@ -4,7 +4,7 @@
   width: 312px;
   height: 149px;
   gap: 16px;
-  // margin-top: 20px;
+  margin-top: 5px;
   &__title {
     color: rgb(26, 26, 26);
     font-size: 20px;
@@ -16,4 +16,8 @@
   &__range {
     cursor: pointer;
   }
+}
+
+input[type="range"] {
+  accent-color: rgb(3, 164, 14);
 }
