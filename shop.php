@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="./src/style/index.css" />       
        <script defer src = "./src/js/shop.js"></script>
+       <script defer src = "./src/js/price-hidden.js"></script>
+       <script defer src ="./src/js/rating-hidden.js"></script>
+       <script defef src ="./src/js/popular-hidden.js"></script>
+
     <title>shop</title>
 </head>
 <body>
@@ -152,15 +156,19 @@
             
               </ul>
             </div>
-            <div class="shop__price price">
-              <p class="price__title">Price</p>
+            <div class="shop__price price">              
+              <button class="price__title">Price <img class="price__img" src="./src/images/shop/categories/arrow-top.png" alt="#"></button>
+              <div class= "price__wrapp">
               <input class ="price__range" type="range" name="" id="">
               <p class="price__text">Price: 50 — 1,500</p>
+              </div>
+              
             </div>
 
             <div class = "shop__rating rating">
-              <p class ="rating__title">Rating</p>
-              <div class = "rating__wrapp">
+              <button class ="rating__title">Rating<img class="rating__img" src="./src/images/shop/categories/arrow-top.png" alt="#"></button>
+              <div class ="rating__container">
+                 <div class = "rating__wrapp">
                 <input class="rating__checkbox" type="checkbox">
                  <div class="rating__star-wrapp">
                     <img  class = "rating__star"src="./src/images/shop/rating/active-star.png" alt="#">
@@ -215,9 +223,11 @@
                 </div> 
                 <p class ="rating__number">1.0 & up</p>              
               </div>
+              </div>
+             
             </div>
             <div class = "shop__popular popular ">
-              <h3 class="popular__title">Popular Tag</h3>
+              <button class="popular__title">Popular Tag <img class="popular__img" src="./src/images/shop/categories/arrow-top.png" alt="#"></button>
               <div class="popular__wrapp">
                 <p class=" popular__text">Healthy</p>
                 <p class=" popular__text">Low fat</p>

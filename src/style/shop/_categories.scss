@@ -6,9 +6,11 @@
   }
   &__title {
     display: flex;
-    padding-bottom: 20px;
+
     align-items: center;
+    justify-content: space-between;
     color: rgb(26, 26, 26);
+    width: 100%;
     font-size: 20px;
     font-weight: 500;
     line-height: 150%;
@@ -16,13 +18,14 @@
     text-align: left;
     cursor: pointer;
   }
-  &__img {
-    margin-left: 150px;
-  }
+  // &__img {
+  //   margin-left: 150px;
+  // }
   &__input-wrapp {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 10px;
     padding-bottom: 10px;
   }
 

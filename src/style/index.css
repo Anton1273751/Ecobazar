@@ -1568,9 +1568,10 @@ h1 {
 }
 .categories__title {
   display: flex;
-  padding-bottom: 20px;
   align-items: center;
+  justify-content: space-between;
   color: rgb(26, 26, 26);
+  width: 100%;
   font-size: 20px;
   font-weight: 500;
   line-height: 150%;
@@ -1578,13 +1579,11 @@ h1 {
   text-align: left;
   cursor: pointer;
 }
-.categories__img {
-  margin-left: 150px;
-}
 .categories__input-wrapp {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 10px;
   padding-bottom: 10px;
 }
 .categories__radio {
@@ -1625,11 +1624,17 @@ input[type=radio] {
   display: flex;
   flex-direction: column;
   width: 312px;
-  height: 149px;
   gap: 16px;
   margin-top: 5px;
 }
+.price__wrap {
+  width: 100%;
+}
 .price__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
   color: rgb(26, 26, 26);
   font-size: 20px;
   font-weight: 500;
@@ -1637,19 +1642,41 @@ input[type=radio] {
   letter-spacing: 0%;
   text-align: left;
 }
+.price__text {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
 .price__range {
   cursor: pointer;
+  width: 100%;
 }
 
 input[type=range] {
   accent-color: rgb(3, 164, 14);
 }
 
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
 .rating {
   max-width: 312px;
+  margin-top: 10px;
 }
 .rating__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: rgb(26, 26, 26);
+  width: 100%;
   font-size: 20px;
   font-weight: 500;
   line-height: 150%;
@@ -1681,7 +1708,19 @@ input[type=checkbox] {
   accent-color: rgb(3, 164, 14);
 }
 
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
 .popular__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
   color: rgb(26, 26, 26);
   font-size: 20px;
   font-weight: 500;
@@ -1718,6 +1757,14 @@ input[type=checkbox] {
   height: 295px;
   margin-top: 20px;
   background-image: url("/src/images/shop/discount/Bannar.png");
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
 }
 
 .sale {
