@@ -1706,7 +1706,7 @@ input[type=checkbox] {
   background: rgb(242, 242, 242);
   cursor: pointer;
 }
-.popular__text:focus {
+.popular__text:hover {
   background: rgb(0, 179, 7);
   color: white;
   cursor: pointer;
