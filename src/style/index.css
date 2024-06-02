@@ -1568,7 +1568,6 @@ h1 {
 .categories__title {
   display: flex;
   padding-bottom: 20px;
-  justify-content: space-between;
   align-items: center;
   color: rgb(26, 26, 26);
   font-size: 20px;
@@ -1578,10 +1577,14 @@ h1 {
   text-align: left;
   cursor: pointer;
 }
+.categories__img {
+  margin-left: 150px;
+}
 .categories__input-wrapp {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-bottom: 10px;
 }
 .categories__radio {
   display: flex;
@@ -1614,7 +1617,7 @@ h1 {
 }
 
 input[type=radio] {
-  accent-color: green;
+  accent-color: rgb(3, 164, 14);
 }
 
 .price {
@@ -1623,7 +1626,6 @@ input[type=radio] {
   width: 312px;
   height: 149px;
   gap: 16px;
-  margin-top: 40px;
 }
 .price__title {
   color: rgb(26, 26, 26);

@@ -118,7 +118,7 @@
           <div class ="shop__categories categories">
             <div class="categories__all">
               <ul>
-                <button class ="categories__title">All Categories <img src="./src/images/shop/categories/arrow-top.png" alt="#"></button>
+                <button class ="categories__title">All Categories <img class="categories__img" src="./src/images/shop/categories/arrow-top.png" alt="#"></button>
                 <div class ="categories__input-wrapp">
                 <div class="categories__radio">
                 <input class = "categories__input" type="radio" name ="example">

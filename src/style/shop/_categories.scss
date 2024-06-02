@@ -7,7 +7,6 @@
   &__title {
     display: flex;
     padding-bottom: 20px;
-    justify-content: space-between;
     align-items: center;
     color: rgb(26, 26, 26);
     font-size: 20px;
@@ -17,10 +16,14 @@
     text-align: left;
     cursor: pointer;
   }
+  &__img {
+    margin-left: 150px;
+  }
   &__input-wrapp {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-bottom: 10px;
   }
 
   &__radio {
@@ -55,5 +58,5 @@
 }
 
 input[type="radio"] {
-  accent-color: green;
+  accent-color: rgb(3, 164, 14);
 }
