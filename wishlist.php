@@ -100,6 +100,9 @@
       <section class="wishlist">
         <div class="container">
         <h3 class="wishlist__title">My Wishlist</h3>
+        <div class ="wishlist__wrapp">
+          <div class=""></div>
+        </div>
         </div>
         
       </section>
