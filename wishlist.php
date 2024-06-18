@@ -97,9 +97,13 @@
       <section class= "breadcrumbs">
         <div></div>
       </section>
+      <section class="wishlist">
+        <div class="container">
+        <h3 class="wishlist__title">My Wishlist</h3>
+        </div>
+        
+      </section>
       
- 
-     
       <section class="shop-newsletter">
         <div class ="container shop-newsletter__wrapp">
           <div class="shop-description"> 
