@@ -6,6 +6,7 @@
     display: flex;
     height: 100%;
     align-items: center;
+    justify-content: space-between;
   }
 }
 .shop-description {
@@ -69,5 +70,28 @@
     font-weight: 600;
     line-height: 20px;
     left: 400px;
+  }
+}
+.shop-social {
+  display: flex;
+  gap: 8px;
+  &__fasebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(0, 179, 7);
+    cursor: pointer;
+  }
+  &__twitter {
+    cursor: pointer;
+  }
+  &__pinterest {
+    cursor: pointer;
+  }
+  &__instagram {
+    cursor: pointer;
   }
 }

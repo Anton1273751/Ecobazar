@@ -330,6 +330,12 @@
            <input class="shop-input__input" type="text" placeholder ="Your email address">
            <button class="shop-input__btn">Subscribe</button>
           </div>
+          <div class="shop-social">
+            <div class="shop-social__fasebook"><img src="./src/images/shop/social/facebook.png" alt="#"></div>
+            <img class="shop-social__twitter" src="./src/images/shop/social/twitter.png" alt="#">
+            <img class="shop-social__pinterest" src="./src/images/shop/social/pinterest.png" alt="#">
+            <img class="shop-social__instagram" src="./src/images/shop/social/instagram.png" alt="#">
+          </div>
                
         </div>
       </section>
