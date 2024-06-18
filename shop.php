@@ -161,8 +161,7 @@
               <div class= "price__wrapp">
               <input class ="price__range" type="range" name="" id="">
               <p class="price__text">Price: 50 — 1,500</p>
-              </div>
-              
+              </div>             
             </div>
 
             <div class = "shop__rating rating">
@@ -306,7 +305,7 @@
           </div>
 
           </div>
-          
+           
           <div class="shop__pagination pagination">
             <div class="pagination__wrapp">
               <button class ="pagination__btn">
@@ -321,7 +320,19 @@
           </div>
         </div>
       </section>
-
+      <section class="shop-newsletter">
+        <div class ="container shop-newsletter__wrapp">
+          <div class="shop-description"> 
+            <h3 class="shop-description__title">Subcribe our Newsletter</h3>
+            <p class="shop-description__text">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna.</p>
+          </div>    
+          <div class="shop-input__wrapp">
+           <input class="shop-input__input" type="text" placeholder ="Your email address">
+           <button class="shop-input__btn">Subscribe</button>
+          </div>
+               
+        </div>
+      </section>
 </main>
 <footer class="footer">
       <div class ="container">
