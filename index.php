@@ -50,11 +50,14 @@
           <img class="basket__heart" src="./src/images/heart.svg" alt="#" />
           <!-- <div class="basket__line"></div> -->
           <div class="basket__card">
-            <img
+            <a href="http://ecobazar/shopping-cart.php">
+                  <img
               class="basket__rectangle"
               src="./src/images/Rectangle.svg"
               alt="#"
             />
+            </a>
+          
             <div class="basket__counter">5</div>
             <div class="basket__info">
               <p class="basket__text">Shopping cart:</p>

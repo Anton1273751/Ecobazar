@@ -54,13 +54,11 @@
           <img class="basket__heart" src="./src/images/heart.svg" alt="#" />
           <!-- <div class="basket__line"></div> -->
           <div class="basket__card">
-           <a href="http://ecobazar/shopping-cart.php">
-                  <img
+            <img
               class="basket__rectangle"
               src="./src/images/Rectangle.svg"
               alt="#"
             />
-            </a>
             <div class="basket__counter">5</div>
             <div class="basket__info">
               <p class="basket__text">Shopping cart:</p>
@@ -78,6 +76,7 @@
           <select name="Shop" id="shop" onchange="window.location.href = this.value;">
             <option>Shop</option>
             <option value="http://ecobazar/shop.php">Vegetables</option>
+            <option value="http://ecobazar/wishlist.php">Wishlist</option>
             <option value="https://www.youtube.com/watch?v=T1AMMeQhLEc">YouTube</option>
             <option value="http://ecobazar/">Home</option>
           </select>
@@ -99,120 +98,42 @@
       <section class= "breadcrumbs">
         <div></div>
       </section>
-      <section class="wishlist">
-        <div class="container">
-        <h3 class="wishlist__title">My Wishlist</h3>
-        <div class ="wishlist__wrapp">
-          <div class="wishlist__cap">
-           <p class="wishlist__caption-product">Product</p>
-           <p class="wishlist__caption-price">price</p>
-           <p class="wishlist__caption-status">Stock Status</p>       
-          </div>
-          <article class="wishlist__article">
-            <div class="wishlist__info">
-              <img class="wishlist__img" src="./src/images/product/eggplant.jpeg" alt="#">
-              <h3 class="wishlist__description">Green Capsicum</h3>
+      <section class="shopping-cart">
+        <div class="container">   
+        <h3 class="shopping-cart__title">My Shopping Cart</h3>
+         <div class ="shopping-cart__test">
+              <div class="shopping-cart__article-wrapp">
+            <div class="shopping-cart__cap">
+              <p class="shopping-cart__caption-product">Product</p>
+              <p class="shopping-cart__caption-price">price</p>
+              <p class="shopping-cart__caption-quantity">Quantity</p>
+              <p class="shopping-cart__caption-subtotal">Subtotal</p>       
+          </div>   
+        </div>
+            <div class="shopping-cart__total total">
+                <h3 class="total__title">Cart Total</h3>
+                <div class ="total__info">
+                    <p class ="total__text">Subtotal:</p>
+                    <p class ="total__subtotal-price">$84.00</p>
+                </div>
+                <div class ="total__info">
+                <p class ="total__text">Shipping:</p>
+                <p class="total__shipping">Free</p>
+                </div>
+                <div class ="total__price-info">
+                    <p class="total__total">Total:</p>
+                    <p class="total__price">$84.00</p>
+                </div>
+                <button class="total__btn">Proceed to checkout</button>
             </div>
-            <p class="wishlist__price">$14.99</p>
-            <p class="wishlist__status-good">In Stock</p>
-            <div class="wishlist__action">
-              <button class="wishlist__btn-add">Add to Cart</button>
-              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
-            </div>
-          </article>
-           <article class="wishlist__article">
-            <div class="wishlist__info">
-              <img class="wishlist__img" src="./src/images/features_products/cabbage.png" alt="#">
-              <h3 class="wishlist__description">Chinese Cabbage</h3>
-            </div>
-            <p class="wishlist__price">$45.00</p>
-            <p class="wishlist__status-good">In Stock</p>
-            <div class="wishlist__action">
-              <button class="wishlist__btn-add">Add to Cart</button>
-              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
-            </div>
-          </article>
-           <article class="wishlist__article">
-            <div class="wishlist__info">
-              <img class="wishlist__img" src="./src/images/shop/products/freshmango.png" alt="#">
-              <h3 class="wishlist__description">Fresh Sujapuri Mango</h3>
-            </div>
-            <p class="wishlist__price">$09.00</p>
-            <p class="wishlist__status-bad">Out of Stock</p>
-            <div class="wishlist__action">
-              <button class="wishlist__btn-add">Add to Cart</button>
-              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
-            </div>
-          </article>
-           <article class="wishlist__article">
-            <div class="wishlist__info">
-              <img class="wishlist__img" src="./src/images/shop/products/freshmango.png" alt="#">
-              <h3 class="wishlist__description">Fresh Sujapuri Mango</h3>
-            </div>
-            <p class="wishlist__price">$09.00</p>
-            <p class="wishlist__status-bad">Out of Stock</p>
-            <div class="wishlist__action">
-              <button class="wishlist__btn-add">Add to Cart</button>
-              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
-            </div>
-          </article>
-           <article class="wishlist__article">
-            <div class="wishlist__info">
-              <img class="wishlist__img" src="./src/images/shop/products/freshmango.png" alt="#">
-              <h3 class="wishlist__description">Fresh Sujapuri Mango</h3>
-            </div>
-            <p class="wishlist__price">$09.00</p>
-            <p class="wishlist__status-bad">Out of Stock</p>
-            <div class="wishlist__action">
-              <button class="wishlist__btn-add">Add to Cart</button>
-              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
-            </div>
-          </article>
-            <article class="wishlist__article">
-            <div class="wishlist__info">
-              <img class="wishlist__img" src="./src/images/shop/products/freshmango.png" alt="#">
-              <h3 class="wishlist__description">Fresh Sujapuri Mango</h3>
-            </div>
-            <p class="wishlist__price">$09.00</p>
-            <p class="wishlist__status-bad">Out of Stock</p>
-            <div class="wishlist__action">
-              <button class="wishlist__btn-add">Add to Cart</button>
-              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
-            </div>
-          </article>
-          
-          <div class="wishlist__share share">
-            <p class="share__text">Share:</p>
-            <div class="share__facebook"><img class="share__img" src="./src/images/footer/facebook.png" alt="#"></div>
-            <img class="share__twitter" src="./src/images/wishlist/twitter.png" alt="#">
-            <img class="share__pinterest" src="./src/images/wishlist/pinterest.png" alt="#">
-            <img class="share__instagram" src="./src/images/wishlist/instagramm.png" alt="#">
+         </div>
+       
 
-          </div>
+
         </div>
-        </div>
-        
       </section>
       
-      <section class="shop-newsletter">
-        <div class ="container shop-newsletter__wrapp">
-          <div class="shop-description"> 
-            <h3 class="shop-description__title">Subcribe our Newsletter</h3>
-            <p class="shop-description__text">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna.</p>
-          </div>    
-          <div class="shop-input__wrapp">
-           <input class="shop-input__input" type="text" placeholder ="Your email address">
-           <button class="shop-input__btn">Subscribe</button>
-          </div>
-          <div class="shop-social">
-            <div class="shop-social__fasebook"><img src="./src/images/shop/social/facebook.png" alt="#"></div>
-            <img class="shop-social__twitter" src="./src/images/shop/social/twitter.png" alt="#">
-            <img class="shop-social__pinterest" src="./src/images/shop/social/pinterest.png" alt="#">
-            <img class="shop-social__instagram" src="./src/images/shop/social/instagram.png" alt="#">
-          </div>
-               
-        </div>
-      </section>
+     
 </main>
 <footer class="footer">
       <div class ="container">
