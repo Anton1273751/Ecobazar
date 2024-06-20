@@ -101,7 +101,92 @@
         <div class="container">
         <h3 class="wishlist__title">My Wishlist</h3>
         <div class ="wishlist__wrapp">
-          <div class=""></div>
+          <div class="wishlist__cap">
+           <p class="wishlist__caption-product">Product</p>
+           <p class="wishlist__caption-price">price</p>
+           <p class="wishlist__caption-status">Stock Status</p>       
+          </div>
+          <article class="wishlist__article">
+            <div class="wishlist__info">
+              <img class="wishlist__img" src="./src/images/product/eggplant.jpeg" alt="#">
+              <h3 class="wishlist__description">Green Capsicum</h3>
+            </div>
+            <p class="wishlist__price">$14.99</p>
+            <p class="wishlist__status-good">In Stock</p>
+            <div class="wishlist__action">
+              <button class="wishlist__btn-add">Add to Cart</button>
+              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
+            </div>
+          </article>
+           <article class="wishlist__article">
+            <div class="wishlist__info">
+              <img class="wishlist__img" src="./src/images/features_products/cabbage.png" alt="#">
+              <h3 class="wishlist__description">Chinese Cabbage</h3>
+            </div>
+            <p class="wishlist__price">$45.00</p>
+            <p class="wishlist__status-good">In Stock</p>
+            <div class="wishlist__action">
+              <button class="wishlist__btn-add">Add to Cart</button>
+              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
+            </div>
+          </article>
+           <article class="wishlist__article">
+            <div class="wishlist__info">
+              <img class="wishlist__img" src="./src/images/shop/products/freshmango.png" alt="#">
+              <h3 class="wishlist__description">Fresh Sujapuri Mango</h3>
+            </div>
+            <p class="wishlist__price">$09.00</p>
+            <p class="wishlist__status-bad">Out of Stock</p>
+            <div class="wishlist__action">
+              <button class="wishlist__btn-add">Add to Cart</button>
+              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
+            </div>
+          </article>
+           <article class="wishlist__article">
+            <div class="wishlist__info">
+              <img class="wishlist__img" src="./src/images/shop/products/freshmango.png" alt="#">
+              <h3 class="wishlist__description">Fresh Sujapuri Mango</h3>
+            </div>
+            <p class="wishlist__price">$09.00</p>
+            <p class="wishlist__status-bad">Out of Stock</p>
+            <div class="wishlist__action">
+              <button class="wishlist__btn-add">Add to Cart</button>
+              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
+            </div>
+          </article>
+           <article class="wishlist__article">
+            <div class="wishlist__info">
+              <img class="wishlist__img" src="./src/images/shop/products/freshmango.png" alt="#">
+              <h3 class="wishlist__description">Fresh Sujapuri Mango</h3>
+            </div>
+            <p class="wishlist__price">$09.00</p>
+            <p class="wishlist__status-bad">Out of Stock</p>
+            <div class="wishlist__action">
+              <button class="wishlist__btn-add">Add to Cart</button>
+              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
+            </div>
+          </article>
+            <article class="wishlist__article">
+            <div class="wishlist__info">
+              <img class="wishlist__img" src="./src/images/shop/products/freshmango.png" alt="#">
+              <h3 class="wishlist__description">Fresh Sujapuri Mango</h3>
+            </div>
+            <p class="wishlist__price">$09.00</p>
+            <p class="wishlist__status-bad">Out of Stock</p>
+            <div class="wishlist__action">
+              <button class="wishlist__btn-add">Add to Cart</button>
+              <button class="wishlist__btn-close"><img src="./src/images/wishlist/Close.png" alt="#"></button>
+            </div>
+          </article>
+          
+          <div class="wishlist__share share">
+            <p class="share__text">Share:</p>
+            <div class="share__facebook"><img class="share__img" src="./src/images/footer/facebook.png" alt="#"></div>
+            <img class="share__twitter" src="./src/images/wishlist/twitter.png" alt="#">
+            <img class="share__pinterest" src="./src/images/wishlist/pinterest.png" alt="#">
+            <img class="share__instagram" src="./src/images/wishlist/instagramm.png" alt="#">
+
+          </div>
         </div>
         </div>
         
