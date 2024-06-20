@@ -140,3 +140,53 @@
     margin-top: 24px;
   }
 }
+.coupon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 872px;
+  height: 92px;
+  margin-top: 24px;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 8px;
+  padding: 20px;
+  background: white;
+  &__title {
+    /* Body XL/Body XL, 500 */
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  &__input-wrapp {
+    position: relative;
+    display: flex;
+    width: 668px;
+  }
+  &__input {
+    width: 661px;
+    height: 52px;
+
+    padding: 14px 24px 14px 24px;
+    box-sizing: border-box;
+    /* Gray Scale/Gray – 100 */
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 46px;
+
+    /* Gray Scale/White */
+    background: rgb(255, 255, 255);
+  }
+  &__btn {
+    position: absolute;
+    width: 196px;
+    height: 52px;
+    left: 480px;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 43px;
+    background: rgb(51, 51, 51);
+    align-items: center;
+    color: white;
+    font-weight: 600;
+  }
+}

@@ -101,8 +101,8 @@
       <section class="shopping-cart">
         <div class="container">   
         <h3 class="shopping-cart__title">My Shopping Cart</h3>
-         <div class ="shopping-cart__test">
-              <div class="shopping-cart__article-wrapp">
+     <div class ="shopping-cart__test">
+        <div class="shopping-cart__article-wrapp">
             <div class="shopping-cart__cap">
               <p class="shopping-cart__caption-product">Product</p>
               <p class="shopping-cart__caption-price">price</p>
@@ -128,8 +128,34 @@
             </div>
          </div>
        
+         <div class ="shopping-cart__coupon coupon">
+          <h3 class="coupon__title">Coupon Code</h3>
+          <div class="coupon__input-wrapp">
+            <input class="coupon__input" type="text" placeholder ="Enter code">
+           <button class="coupon__btn">Apply Coupon</button>
+          </div>
 
+         </div>
 
+        </div>
+      </section>
+      <section class="shop-newsletter">
+        <div class ="container shop-newsletter__wrapp">
+          <div class="shop-description"> 
+            <h3 class="shop-description__title">Subcribe our Newsletter</h3>
+            <p class="shop-description__text">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna.</p>
+          </div>    
+          <div class="shop-input__wrapp">
+           <input class="shop-input__input" type="text" placeholder ="Your email address">
+           <button class="shop-input__btn">Subscribe</button>
+          </div>
+          <div class="shop-social">
+            <div class="shop-social__fasebook"><img src="./src/images/shop/social/facebook.png" alt="#"></div>
+            <img class="shop-social__twitter" src="./src/images/shop/social/twitter.png" alt="#">
+            <img class="shop-social__pinterest" src="./src/images/shop/social/pinterest.png" alt="#">
+            <img class="shop-social__instagram" src="./src/images/shop/social/instagram.png" alt="#">
+          </div>
+               
         </div>
       </section>
       
