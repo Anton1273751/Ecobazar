@@ -80,7 +80,9 @@
             <option>Shop</option>
             <option value="http://ecobazar/shop.php">Vegetables</option>
             <option value="http://ecobazar/wishlist.php">Wishlist</option>
-            <option value="https://www.youtube.com/watch?v=T1AMMeQhLEc">YouTube</option>
+            <option value="http://ecobazar/checkout.php">Checkout</option>
+
+           
             <option value="http://ecobazar/">Home</option>
 
 

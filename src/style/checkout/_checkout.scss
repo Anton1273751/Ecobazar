@@ -1,0 +1,204 @@
+.checkout {
+  &__wrapp {
+    display: flex;
+    padding: 32px 80px;
+  }
+  &__cover {
+    display: flex;
+    width: 100%;
+    // border: 1px solid rgb(191, 176, 176);
+  }
+  &__billing {
+    display: flex;
+    flex-direction: column;
+    width: 872px;
+    height: 706px;
+  }
+  &__additional-info {
+    display: flex;
+    flex-direction: column;
+    width: 424px;
+    height: 580px;
+    border: 1px solid black;
+  }
+}
+.billing {
+  &__title {
+    /* Body XXL/Body XXL, 500 */
+    color: rgb(26, 26, 26);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 150%;
+  }
+  &__user {
+    display: flex;
+    margin-top: 20px;
+    gap: 16px;
+  }
+  &__text {
+    /* Body Small/Body Small, 400 */
+    color: rgb(26, 26, 26);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__first-name-wrapp {
+    display: flex;
+    max-width: 280px;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__input-name {
+    display: flex;
+    padding: 16px;
+    // width: 280px;
+    height: 49px;
+    margin-top: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 6px;
+  }
+  &__last-name-wrapp {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    gap: 8px;
+  }
+  &__input-surname {
+    width: 100%;
+    height: 49px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 6px;
+    padding: 16px;
+  }
+  &__company-wrapp {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    gap: 8px;
+  }
+  &__input-company {
+    width: 100%;
+    height: 49px;
+    margin-top: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 6px;
+    padding: 16px;
+  }
+  &__adress-wrapp {
+    margin-top: 16px;
+  }
+  &__input-adress {
+    margin-top: 8px;
+    min-width: 710px;
+    height: 49px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 6px;
+    padding: 16px;
+  }
+  &__location {
+    display: flex;
+
+    align-items: center;
+    gap: 16px;
+  }
+  &__region-wrapp {
+    margin-top: 16px;
+  }
+  &__select-wrapp {
+    display: flex;
+    justify-content: space-between;
+    width: 226px;
+    height: 49px;
+    padding: 14px 16px 14px 16px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  &__select-text {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__select {
+    cursor: pointer;
+  }
+  &__states-wrapp {
+    margin-top: 16px;
+  }
+  &__zip-wrapp {
+    margin-top: 16px;
+  }
+  &__contacts {
+    display: flex;
+    // justify-content: space-between;
+    margin-top: 16px;
+    gap: 16px;
+  }
+  &__email-wrapp {
+    display: flex;
+    width: 350px;
+    height: 78px;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__email {
+    color: rgb(26, 26, 26);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__input-email {
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 6px;
+    height: 49px;
+    padding: 16px;
+  }
+  &__phone-wrapp {
+    display: flex;
+    width: 350px;
+    height: 78px;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__phone {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__input-phone {
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 6px;
+    height: 49px;
+    padding: 16px;
+  }
+  &__another-address {
+    display: flex;
+    margin-top: 20px;
+    gap: 6px;
+  }
+  &__checkbox {
+    width: 20px;
+    height: 20px;
+  }
+  &__checkbox-text {
+    /* Body Small/Body Small, 400 */
+    color: rgb(77, 77, 77);
+
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
