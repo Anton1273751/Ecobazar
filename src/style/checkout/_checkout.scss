@@ -17,10 +17,12 @@
   &__additional-info {
     display: flex;
     flex-direction: column;
+    margin-top: 32px;
     width: 424px;
     height: 580px;
     border: 1px solid black;
   }
+  
 }
 .billing {
   &__title {

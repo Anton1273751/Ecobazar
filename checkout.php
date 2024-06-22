@@ -160,11 +160,16 @@
                         <input class="billing__checkbox" type="checkbox">
                         <p class="billing__checkbox-text">Ship to a different address</p>
                     </div>
+                    
+                <div class="checkout__additional-info"> 
+                    <!-- <h3 class="additional-info">Additional Info</h3> -->
+            </div>
+                    
                 </div>
-                <div class="checkout__additional-info"></div>
+                <div class="checkout__additional-info">  </div>
                  
                 </div>
-                <div class="checkout__order order"></div>
+                <!-- <div class="checkout__order order"></div> -->
             </div>
         </div>
       </section>
