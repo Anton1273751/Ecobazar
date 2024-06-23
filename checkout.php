@@ -162,12 +162,16 @@
                     </div>
                     
                 <div class="checkout__additional-info"> 
-                    <!-- <h3 class="additional-info">Additional Info</h3> -->
+                    <h3 class ="checkout__title">Additional Info</h3>
+                    <p class ="checkout__text">Order Notes (Optional)</p>
+                    <textarea class="checkout__textarea" name="" id="" placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
             </div>
                     
                 </div>
-                <div class="checkout__additional-info">  </div>
-                 
+                <div class="checkout__order order"> 
+                 <h3 class="order__title">Order Summery</h3>
+
+                </div>
                 </div>
                 <!-- <div class="checkout__order order"></div> -->
             </div>
