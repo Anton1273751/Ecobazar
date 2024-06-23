@@ -170,6 +170,35 @@
                 </div>
                 <div class="checkout__order order"> 
                  <h3 class="order__title">Order Summery</h3>
+                 <article class="order__article">
+                  <div class="order__info">
+                    <img class="order__img" src="./src/images/product/aple.jpeg" alt="#">
+                    <p class="order__nomenclature">Green Apple</p>
+                    <p class="order__count">x5</p>              
+                  </div>
+                  <p class="order__price">$70.00</p>
+                 </article>
+                   <article class="order__article">
+                  <div class="order__info">
+                    <img class="order__img" src="./src/images/product/aple.jpeg" alt="#">
+                    <p class="order__nomenclature">Green Apple</p>
+                    <p class="order__count">x5</p>              
+                  </div>
+                  <p class="order__price">$70.00</p>
+                 </article>
+                 <div class="order__subtotal-wrapp">
+                  <p class ="order__subtotal-text">Subtotal:</p>
+                  <p class="order__subtotal-price">$84.00</p>
+                 </div>
+                 <div class="order__shipping-wrapp">
+                  <p class ="order__shipping-text">Shipping:</p>
+                  <p class="order__shipping-status">Free</p>
+                 </div>
+                 <div class="order__total">
+                  <p class ="order__total-text">Shipping:</p>
+                  <p class="order__total-price">$84.00</p>
+                 </div>
+                
 
                 </div>
                 </div>
