@@ -198,6 +198,26 @@
                   <p class ="order__total-text">Shipping:</p>
                   <p class="order__total-price">$84.00</p>
                  </div>
+                  <div class="order__payment-method">
+                    <h3 class ="order__title">Payment Method</h3>
+                    <div class ="order__input-wrapp">
+                      <div class="order__radio">
+                        <input class="order__input" type="radio" name="example">
+                        <p class="order__text"> Cash on Delivery</p>
+                      </div>
+                      <div class="order__radio">
+                        <input class="order__input" type="radio" name="example">
+                        <p class="order__text"> Paypal</p>
+                      </div>
+                      <div class="order__radio">
+                        <input class="order__input" type="radio" name="example">
+                        <p class="order__text"> Amazon Pay</p>
+                      </div>
+                    </div>
+                    <button class="order__btn">Place Order</button>
+
+                  </div>
+                
                 
 
                 </div>

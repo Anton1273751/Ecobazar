@@ -2443,7 +2443,7 @@ input[type=checkbox] {
 }
 .checkout__order {
   width: 424px;
-  height: 580px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -2737,4 +2737,45 @@ input[type=checkbox] {
   color: rgb(26, 26, 26);
   font-weight: bold;
   line-height: 150%;
+}
+.order__payment-method {
+  margin-top: 24px;
+}
+.order__input-wrapp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  width: 100%;
+  gap: 10px;
+}
+.order__radio {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+.order__input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.order__text {
+  /* Body Small/Body Small, 400 */
+  color: rgb(77, 77, 77);
+  font-weight: 400;
+  line-height: 150%;
+}
+.order__btn {
+  display: flex;
+  width: 376px;
+  height: 51px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 34px;
+  border-radius: 43px;
+  background: rgb(0, 179, 7);
+  /* Body Medium/Body Medium, 600 */
+  color: white;
+  font-weight: 600;
+  line-height: 120%;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
