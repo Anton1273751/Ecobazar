@@ -31,6 +31,7 @@
 HTML;
     }
 }
+$conn -> close();
 
 
 ?>

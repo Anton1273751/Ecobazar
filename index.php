@@ -152,6 +152,7 @@
         <?php 
         include "./src/php/get_products.php"
         ?>
+
        </div>
         </div>       
       
@@ -228,7 +229,6 @@
         ?>
         </div>
       </section>
-
       <section class ="newsletter" >
         <div class="newsletter__line"></div>
         <div class="container">
@@ -334,5 +334,9 @@
          
        
     </footer>
-  </body>
+  </body> 
 </html>
+
+<script src ="./src/js/basket.js"></script>
+
+
