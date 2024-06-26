@@ -71,7 +71,7 @@
           
           <select name="" id="category">
             <option value="">All Category</option>
-          </select>
+          </select >
 
           <select name="" id="home">
             <option value="home">Home</option>
@@ -84,7 +84,6 @@
 
            
             <option value="http://ecobazar/">Home</option>
-
 
             
           </select>
@@ -158,7 +157,6 @@
       
       </section>
       <section class = "container performance">
-       
           <?php 
         include "./src/php/perfomance.php"
         ?>
