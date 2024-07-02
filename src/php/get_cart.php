@@ -18,7 +18,7 @@
  if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         echo <<<HTML
-             <article class ="shopping-cart__article">
+             <article id ="{$row['id']}" class ="shopping-cart__article">
             <div class ="shopping-cart__info">
               <img class ="shopping-cart__img" src="{$row['image']}" alt="#">
               <h3 class="shopping-cart__description">{$row["name"]}</h3>
@@ -30,7 +30,7 @@
               <img class="shopping-cart__plus" src="./src/images/shoping-cart/plus.png" alt="#">
             </div>
             <p class="shopping-cart__subtotal">$70.00</p>
-            <img class="shopping-cart__close" src="./src/images/shoping-cart/close.png" alt="#">
+            <img class="shopping-cart__close" product_id = '{$row["id"]}' src="./src/images/shoping-cart/close.png" alt="#">
           </article>      
 HTML;
     }

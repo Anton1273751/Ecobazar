@@ -2,7 +2,10 @@ const addCountNode = document.querySelectorAll(".shopping-cart__plus");
 const countProductNode = document.querySelectorAll(".shopping-cart__count");
 const articleProduct = document.querySelectorAll(".shopping-cart__article");
 const closeProduct = document.querySelectorAll(".shopping-cart__close");
-console.log(closeProduct);
+const getId = document.getElementById("id");
+console.log(getId);
+// console.log(closeProduct);
+// console.log(articleProduct);
 
 closeProduct.forEach((elem) => {
   elem.addEventListener("click", (e) => {
