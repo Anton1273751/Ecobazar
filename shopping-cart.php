@@ -109,7 +109,7 @@
               <p class="shopping-cart__caption-quantity">Quantity</p>
               <p class="shopping-cart__caption-subtotal">Subtotal</p>       
           </div>  
-          <article class ="shopping-cart__article">
+          <!-- <article class ="shopping-cart__article">
             <div class ="shopping-cart__info">
               <img class ="shopping-cart__img" src="./src/images/product/eggplant.jpeg" alt="#">
               <h3 class="shopping-cart__description">Green Capsicum</h3>
@@ -122,49 +122,12 @@
             </div>
             <p class="shopping-cart__subtotal">$70.00</p>
             <img class="shopping-cart__close" src="./src/images/shoping-cart/close.png" alt="#">
-          </article> 
-              <article class ="shopping-cart__article">
-            <div class ="shopping-cart__info">
-              <img class ="shopping-cart__img" src="./src/images/product/eggplant.jpeg" alt="#">
-              <h3 class="shopping-cart__description">Green Capsicum</h3>
-            </div>
-            <p class ="shopping-cart__price">$14.00</p>
-            <div class="shopping-cart__wrapp-quantity">
-              <img class="shopping-cart__minus" src="./src/images/shoping-cart/minus.png" alt="#">
-              <p class="shopping-cart__count">5</p>
-              <img class="shopping-cart__plus" src="./src/images/shoping-cart/plus.png" alt="#">
-            </div>
-            <p class="shopping-cart__subtotal">$70.00</p>
-            <img class="shopping-cart__close" src="./src/images/shoping-cart/close.png" alt="#">
-          </article> 
-              <article class ="shopping-cart__article">
-            <div class ="shopping-cart__info">
-              <img class ="shopping-cart__img" src="./src/images/product/eggplant.jpeg" alt="#">
-              <h3 class="shopping-cart__description">Green Capsicum</h3>
-            </div>
-            <p class ="shopping-cart__price">$14.00</p>
-            <div class="shopping-cart__wrapp-quantity">
-              <img class="shopping-cart__minus" src="./src/images/shoping-cart/minus.png" alt="#">
-              <p class="shopping-cart__count">5</p>
-              <img class="shopping-cart__plus" src="./src/images/shoping-cart/plus.png" alt="#">
-            </div>
-            <p class="shopping-cart__subtotal">$70.00</p>
-            <img class="shopping-cart__close" src="./src/images/shoping-cart/close.png" alt="#">
-          </article> 
-           <article class ="shopping-cart__article">
-            <div class ="shopping-cart__info">
-              <img class ="shopping-cart__img" src="./src/images/product/eggplant.jpeg" alt="#">
-              <h3 class="shopping-cart__description">Green Capsicum</h3>
-            </div>
-            <p class ="shopping-cart__price">$14.00</p>
-            <div class="shopping-cart__wrapp-quantity">
-              <img class="shopping-cart__minus" src="./src/images/shoping-cart/minus.png" alt="#">
-              <p class="shopping-cart__count">5</p>
-              <img class="shopping-cart__plus" src="./src/images/shoping-cart/plus.png" alt="#">
-            </div>
-            <p class="shopping-cart__subtotal">$70.00</p>
-            <img class="shopping-cart__close" src="./src/images/shoping-cart/close.png" alt="#">
-          </article> 
+          </article>  -->
+             <?php 
+              include "./src/php/get_cart.php"
+            ?>
+             
+         
           
           <div class ="shopping-cart__links">
             <a class="shopping-cart__btn" href="http://ecobazar/shop.php">Return to shop</a>
