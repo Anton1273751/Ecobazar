@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="./src/style/index.css" />       
-       <script defer src = "./src/js/shop.js"></script>
-       <script defer src = "./src/js/price-hidden.js"></script>
-       <script defer src ="./src/js/rating-hidden.js"></script>
-       <script defef src ="./src/js/popular-hidden.js"></script>
+
 
     <title>shop</title>
 </head>
@@ -124,7 +121,7 @@
             <img class="shopping-cart__close" src="./src/images/shoping-cart/close.png" alt="#">
           </article>  -->
              <?php 
-              include "./src/php/get_cart.php"
+            include "./src/php/get_cart.php"
             ?>
              
          
@@ -269,3 +266,5 @@
      
 </body>
 </html>
+
+<script src ="./src/js/count_sum_total.js"></script>
