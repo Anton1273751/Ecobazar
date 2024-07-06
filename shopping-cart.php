@@ -268,3 +268,4 @@
 </html>
 
 <script src ="./src/js/count_sum_total.js"></script>
+<script src ="./src/js/change_quantity.js"></script>
